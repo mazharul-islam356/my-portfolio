@@ -1,3 +1,4 @@
+import "./css/home.css"
 
 const Data = () => {
     return (
