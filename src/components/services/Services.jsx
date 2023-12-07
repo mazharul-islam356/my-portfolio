@@ -2,7 +2,8 @@ import { useState } from 'react';
 import './services.css'
 
 const Services = () => {
-    const [toggleState, setToggleState] = useState(0);
+    
+const [toggleState, setToggleState] = useState(0);
 const toggleTab = (index)=> {
 
 setToggleState(index);
@@ -65,8 +66,8 @@ setToggleState(index);
                 <h3 className="services__title">UI/UX <br /> Designer</h3>
 
             </div>
-            <span className="services__button" onClick={()=>toggleTab(1)}>View More<i className="uil uil-arrow-right services__button-icon"></i></span>
-            <div className={toggleState === 1 ? "services__modal active-modal" : "services__modal"}>
+            <span className="services__button" onClick={()=>toggleTab(2)}>View More<i className="uil uil-arrow-right services__button-icon"></i></span>
+            <div className={toggleState === 2 ? "services__modal active-modal" : "services__modal"}>
                 <div className="services__modal-content">
                     <i className="uil uil-times services__modal-close" onClick={()=> toggleTab(0)}></i>
                     <h3 className="services__modal-title">UI/UX Designer</h3>
@@ -109,8 +110,8 @@ setToggleState(index);
                 <h3 className="services__title">Visual <br /> Designer</h3>
 
             </div>
-            <span className="services__button" onClick={()=>toggleTab(1)}>View More<i className="uil uil-arrow-right services__button-icon"></i></span>
-            <div className={toggleState === 1 ? "services__modal active-modal" : "services__modal"}>
+            <span className="services__button" onClick={()=>toggleTab(3)}>View More<i className="uil uil-arrow-right services__button-icon"></i></span>
+            <div className={toggleState === 3 ? "services__modal active-modal" : "services__modal"}>
                 <div className="services__modal-content">
                     <i className="uil uil-times services__modal-close" onClick={()=> toggleTab(0)}></i>
                     <h3 className="services__modal-title">Visual Designer</h3>
