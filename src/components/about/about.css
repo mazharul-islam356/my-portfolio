@@ -68,11 +68,22 @@
   
   /* For medium devices */
   @media screen and (max-width: 576px) {
+
+    .about{
+        margin-left: 2rem ;
+    }
     .about__info{
         grid-template-columns: repeat(3,1fr);
     }
     .about__description{
         padding: 0;
+    }
+    
+  }
+  @media screen and (max-width: 380px) {
+
+    .about{
+        margin-left: 3rem ;
     }
     
   }
