@@ -3,7 +3,6 @@ import Data from "./Data";
 import ScrollDown from "./ScrollDown";
 import Social from "./Social";
 
-
 const Home = () => {
     return (
         
