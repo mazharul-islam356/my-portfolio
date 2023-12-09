@@ -46,6 +46,41 @@ setToggleState(index);
 
             <div className="qualification__data">
               <div>
+                <h3 className="qualification__title">Hounars 1st year</h3>
+                <span className="qualification__subtitle">Govt. Tolaram Collage & University</span>
+                <div className="qualification__calender">
+                  <i className="bx bx-calendar"></i> Jun 2023 - Present
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+                <div></div>
+
+                <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">Web Development</h3>
+                <span className="qualification__subtitle">Programing Hero</span>
+                <div className="qualification__calender">
+                  <i className="bx bx-calendar"></i> Jan 2023 - Present
+                </div>
+              </div>
+            </div>
+
+            
+
+
+            {/* <div className="qualification__data">
+              <div>
                 <h3 className="qualification__title">Web Development</h3>
                 <span className="qualification__subtitle">Spain Institute</span>
                 <div className="qualification__calender">
@@ -68,56 +103,25 @@ setToggleState(index);
               </div>
 
               <div>
-                <h3 className="qualification__title">Web Design</h3>
-                <span className="qualification__subtitle">Spain Institute</span>
+                <h3 className="qualification__title">Hounars 1st year</h3>
+                <span className="qualification__subtitle">Govt. Tolaram Collage & University</span>
                 <div className="qualification__calender">
-                  <i className="bx bx-calendar"></i> 2021 - Present
+                  <i className="bx bx-calendar"></i> Jun 2023 - Present
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">Web Development</h3>
-                <span className="qualification__subtitle">Spain Institute</span>
-                <div className="qualification__calender">
-                  <i className="bx bx-calendar"></i> 2021 - Present
-                </div>
-              </div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-                <div></div>
-
-                <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-
-              <div>
-                <h3 className="qualification__title">Web Design</h3>
-                <span className="qualification__subtitle">Spain Institute</span>
-                <div className="qualification__calender">
-                  <i className="bx bx-calendar"></i> 2021 - Present
-                </div>
-              </div>
-            </div>
-
+            
           </div>
 
           <div className={toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">UI Expert</h3>
+                <h3 className="qualification__title">Programing Hero</h3>
                 <span className="qualification__subtitle">Spain Institute</span>
                 <div className="qualification__calender">
-                  <i className="bx bx-calendar"></i> 2021 - Present
+                  <i className="bx bx-calendar"></i> Jan 2023 - Present
                 </div>
               </div>
 
@@ -127,7 +131,7 @@ setToggleState(index);
               </div>
             </div>
 
-            <div className="qualification__data">
+            {/* <div className="qualification__data">
                 <div></div>
 
                 <div>
@@ -157,7 +161,8 @@ setToggleState(index);
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
-            </div>
+            </div> */}
+
           </div>
 
           

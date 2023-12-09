@@ -1,6 +1,6 @@
 import "./about.css"
-import AboutImg from '../../assets/about.jpg'
-import CV from '../../assets/John-Cv.pdf'
+import AboutImg from '../../assets/about2.jpg'
+import CV from '../../assets/My-resume.pdf'
 import Info from "./Info";
 
 const About = () => {
@@ -11,7 +11,7 @@ const About = () => {
         <div className="about__container container grid"> <img src={AboutImg} alt="#" className="about__img" />
         <div className="about__data">
             <Info></Info>
-            <p className="about__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eligendi iusto alias ex provident repudiandae?</p>
+            <p className="about__description">As a front-end developer, I am dedicated to transforming creative concepts into seamless and visually compelling web experiences through my expertise in React, JavaScript, HTML, CSS, and Tailwind CSS.</p>
             <a download="" href={CV} className="button">Download CV
             <svg
                 className="button__icon"

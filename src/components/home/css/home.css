@@ -59,7 +59,7 @@
         }
 
     .home__img {
-    background: url(../../../assets/profile2.jpg);
+    background: url(../../../assets/my-profile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -112,6 +112,9 @@
         color: var(--title-color);
 
         }
+    .home__scroll-button {
+        margin-top: 7.5rem;
+    }
        
 
 

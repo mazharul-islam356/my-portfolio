@@ -59,7 +59,10 @@ const Data = () => {
 
                 </h1>
                 <h3 className="home__subtitle">Front-end web developer</h3>
-                <p className="home__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore, aut?Lorem ipsum dolor sit amet.</p>
+                <p className="home__description">
+                I am a proficient front-end developer skilled in React, JavaScript, HTML, CSS, and Tailwind CSS, dedicated to creating visually appealing and user-friendly web interfaces.
+
+</p>
                 
                 <a href="#contact" className="button">Say Hello!
 
