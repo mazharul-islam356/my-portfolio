@@ -1,6 +1,5 @@
 import { useState } from "react";
 import "./qualification.css";
-
 const Qualification = () => {
 
     const [toggleState, setToggleState] = useState(1);
@@ -168,6 +167,8 @@ setToggleState(index);
           
         </div>
       </div>
+
+
     </section>
   );
 };

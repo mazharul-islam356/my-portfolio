@@ -64,7 +64,7 @@ const Data = () => {
 
 </p>
                 
-                <a href="#contact" className="button">Say Hello!
+                <a target="_blank" href="https://www.facebook.com/rifat3569" className="button" rel="noreferrer">Say Hello!
 
                 <svg
                   className="button__icon"
