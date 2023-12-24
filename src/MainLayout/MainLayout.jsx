@@ -1,6 +1,7 @@
 import Education from "../Pages/Education/Education";
 import Home from "../Pages/Home/Home";
 import Navbars from "../Pages/Navbar/Navbars";
+import Skills from "../Pages/skills/Skills";
 import WhatIDo from "../Pages/whatIdo/WhatIDo";
 
 const MainLayout = () => {
@@ -12,6 +13,7 @@ const MainLayout = () => {
            <Home></Home>
            <Education></Education>
            <WhatIDo></WhatIDo>
+           <Skills></Skills>
 
            </div>
 
