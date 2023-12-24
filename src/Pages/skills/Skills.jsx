@@ -11,6 +11,7 @@ const Skills = () => {
             <p className="text-xl">React</p>
             <p className="text-xl">Next js</p>
             </div>
+            <div className="text-xl font-bold">TODO: Design and codind skills add</div>
         </div>
     );
 };

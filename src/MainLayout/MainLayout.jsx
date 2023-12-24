@@ -1,6 +1,9 @@
 import Education from "../Pages/Education/Education";
 import Home from "../Pages/Home/Home";
 import Navbars from "../Pages/Navbar/Navbars";
+import FunFacts from "../Pages/funFacts/FunFacts";
+import HireMe from "../Pages/hireMe/HireMe";
+import Projects from "../Pages/projects/Projects";
 import Skills from "../Pages/skills/Skills";
 import WhatIDo from "../Pages/whatIdo/WhatIDo";
 
@@ -14,6 +17,9 @@ const MainLayout = () => {
            <Education></Education>
            <WhatIDo></WhatIDo>
            <Skills></Skills>
+           <Projects></Projects>
+           <FunFacts></FunFacts>
+           <HireMe></HireMe>
 
            </div>
 
