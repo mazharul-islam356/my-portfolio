@@ -5,6 +5,7 @@ module.exports = withMT({
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
+    'node_modules/preline/dist/*.js'
   ],
   theme: {
     extend: {
@@ -13,6 +14,9 @@ module.exports = withMT({
       },
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [require("daisyui"),
+  require('preline/plugin'),
+],
+  
 });
 

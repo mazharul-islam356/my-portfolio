@@ -8,6 +8,9 @@ import Skills from "../Pages/skills/Skills";
 import WhatIDo from "../Pages/whatIdo/WhatIDo";
 
 const MainLayout = () => {
+   
+    
+
     return (
         <div>
            <div className="w-11/12 mb-10 mx-auto font-sans">
@@ -21,6 +24,11 @@ const MainLayout = () => {
            <FunFacts></FunFacts>
            <HireMe></HireMe>
 
+
+
+  
+
+    
            </div>
 
         </div>
