@@ -1,12 +1,28 @@
 /* eslint-disable react/no-unknown-property */
 import './skills.css'
-import './skills.js'
 
+import { useEffect } from 'react'
 
 const Skills = () => {
+    useEffect(()=>{
+        let number = document.getElementById('number');
+        let counter = 0;
+        setInterval(() => {
+        if (counter === 65) {
+        clearInterval;
+        } else {
+        counter += 1;
+        number.innerHTML = `${counter}%`;
+        }
+        }, 30);
+    },[])
     return (
-        <div className="mt-20">
 
+        
+
+        
+        <div className="mt-20">
+            
 <h1 className="text-2xl font-semibold text-center">Skills</h1>
             <div className="grid text-center mt-4 grid-cols-5 justify-center items-center justify-items-center">
 
@@ -14,7 +30,7 @@ const Skills = () => {
             <div className="skills">
             <div className="outer ">
                 <div className="inner">
-            <div id="number">65%</div>
+            <div id="number"></div>
                 </div>
             </div>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
