@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable react/jsx-no-target-blank */
-import "./education.css"
+
 import { FaUserGraduate } from "react-icons/fa";
 const Education = () => {
   return (
@@ -10,6 +10,7 @@ const Education = () => {
      <div className="text-2xl mb-4">
      <FaUserGraduate />
      </div>
+     
             <h1 className="text-2xl font-semibold mb-4">Education</h1>
      </div>
 

@@ -65,7 +65,7 @@ window.addEventListener('scroll', () => {
             <div id="number"></div>
                 </div>
             </div>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+<svg className='skillSvg' xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
 <defs>
 <linearGradient id="GradientColor">
 <stop offset="0%" stop-color="#DA22FF" />
@@ -87,7 +87,7 @@ window.addEventListener('scroll', () => {
 
                 </div>
             </div>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+<svg className='skillSvg' xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
 <defs>
 <linearGradient id="GradientColor">
 <stop offset="0%" stop-color="#DA22FF" />
