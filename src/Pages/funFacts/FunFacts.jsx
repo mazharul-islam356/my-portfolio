@@ -1,20 +1,35 @@
+import './funFacts.css'
 
 const FunFacts = () => {
+
     return (
+      
         <div className="mt-20">
-           
-            <h1 className="text-2xl font-semibold text-center">Fun facts</h1>
-            <div>
-            JavaScript die: <br />
-           <div className="flex gap-8 justify-center font-semibold">
-            <p> Completed project <br />
-            40+</p>
-            <p> Happy clints <br />
-            12+</p>
-            <p> Works hour <br />
-            8,457+</p>
-           </div>
-            </div>
+            
+           <div className="counter-up">
+    <div className="content">
+      <div className="box">
+        <div className="icon"><i className="fas fa-history"></i></div>
+        <div className="counter">724</div>
+        <div className="text">Working Hours</div>
+      </div>
+      <div className="box">
+        <div className="icon"><i className="fas fa-gift"></i></div>
+        <div className="counter">508</div>
+        <div className="text">Completed Projects</div>
+      </div>
+      <div className="box">
+        <div className="icon"><i className="fas fa-users"></i></div>
+        <div className="counter">436</div>
+        <div className="text">Happy Clients</div>
+      </div>
+      <div className="box">
+        <div className="icon"><i className="fas fa-award"></i></div>
+        <div className="counter">120</div>
+        <div className="text">Awards Received</div>
+      </div>
+    </div>
+  </div>
         </div>
     );
 };
