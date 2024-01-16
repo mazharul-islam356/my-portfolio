@@ -25,7 +25,7 @@ const FunFacts = () => {
       </div>
       <div className="box">
         <div className="icon"><i className="fas fa-award"></i></div>
-        <div className="counter">120</div>
+        <div className="counter">20</div>
         <div className="text">Awards Received</div>
       </div>
     </div>

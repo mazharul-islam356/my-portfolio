@@ -64,7 +64,6 @@ function NavList() {
     </ul>
   );
 }
- 
 const Navbars = () => {
 
   const [openNav, setOpenNav] = React.useState(false);
