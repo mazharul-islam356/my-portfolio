@@ -9,12 +9,9 @@ const Projects = () => {
 
   
     return (
-        <div className="mt-20">
-            <h1 className="text-2xl font-semibold text-center">Projects</h1>
-            <div>
-            Framer motion projct card
-            </div>
-
+        <div className="mt-40">
+            <h1 className="text-2xl font-semibold text-center mb-20">Projects</h1>
+            
 
             <Swiper
         effect={'cards'}
@@ -53,43 +50,128 @@ const Projects = () => {
       <h1 className="text-sm font-light text-gray-200 shadow-xl">A Little Paradise in Portugal</h1>
     </div>
   </div>
-</div>
+            </div>
            
         </SwiperSlide>
 
+{/* slide 03 */}
 
         <SwiperSlide>
-            Slide 3
+        <div className="da relative flex  flex-col justify-center overflow-hidden bg-gray-50">
+  <div className="absolute inset-0 bg-center dark:bg-black"></div>
+  <div className="group relative m-0 flex h-full w-[40rem] rounded-xl shadow-xl ring-gray-900/5 sm:mx-auto sm:max-w-lg">
+    <div className="z-10 h-full w-full overflow-hidden rounded-xl border border-gray-200 opacity-80 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70">
+      <img src="https://i.ibb.co/7bmJpK1/modern-stationary-collection-arrangement.jpg" className="animate-fade-in block h-[20rem] w-full -ml-14 scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110" alt="" />
+    </div>
+    <div className="absolute bottom-0 z-20 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110">
+      <h1 className="font-serif text-2xl font-bold text-white shadow-xl">Azores</h1>
+      <h1 className="text-sm font-light text-gray-200 shadow-xl">A Little Paradise in Portugal</h1>
+    </div>
+  </div>
+            </div>
         </SwiperSlide>
 
+{/* slide 04 */}
 
         <SwiperSlide>
-            Slide 4
+        <div className="da relative flex  flex-col justify-center overflow-hidden bg-gray-50">
+  <div className="absolute inset-0 bg-center dark:bg-black"></div>
+  <div className="group relative m-0 flex h-full w-[40rem] rounded-xl shadow-xl ring-gray-900/5 sm:mx-auto sm:max-w-lg">
+    <div className="z-10 h-full w-full overflow-hidden rounded-xl border border-gray-200 opacity-80 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70">
+      <img src="https://i.ibb.co/C1gwqW8/istockphoto-1283154274-612x612.jpg" className="animate-fade-in block h-[20rem] w-full -ml-14 scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110" alt="" />
+    </div>
+    <div className="absolute bottom-0 z-20 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110">
+      <h1 className="font-serif text-2xl font-bold text-white shadow-xl">Azores</h1>
+      <h1 className="text-sm font-light text-gray-200 shadow-xl">A Little Paradise in Portugal</h1>
+    </div>
+  </div>
+            </div>
         </SwiperSlide>
 
+{/* slide 05 */}
 
         <SwiperSlide>
-            Slide 5
+        <div className="da relative flex  flex-col justify-center overflow-hidden bg-gray-50">
+  <div className="absolute inset-0 bg-center dark:bg-black"></div>
+  <div className="group relative m-0 flex h-full w-[40rem] rounded-xl shadow-xl ring-gray-900/5 sm:mx-auto sm:max-w-lg">
+    <div className="z-10 h-full w-full overflow-hidden rounded-xl border border-gray-200 opacity-80 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70">
+      <img src="https://i.ibb.co/98PMw24/weading.jpg" className="animate-fade-in block h-[20rem] w-full -ml-14 scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110" alt="" />
+    </div>
+    <div className="absolute bottom-0 z-20 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110">
+      <h1 className="font-serif text-2xl font-bold text-white shadow-xl">Azores</h1>
+      <h1 className="text-sm font-light text-gray-200 shadow-xl">A Little Paradise in Portugal</h1>
+    </div>
+  </div>
+            </div>
         </SwiperSlide>
 
+{/* slide 06 */}
+
 
         <SwiperSlide>
-            Slide 6
+        <div className="da relative flex  flex-col justify-center overflow-hidden bg-gray-50">
+  <div className="absolute inset-0 bg-center dark:bg-black"></div>
+  <div className="group relative m-0 flex h-full w-[40rem] rounded-xl shadow-xl ring-gray-900/5 sm:mx-auto sm:max-w-lg">
+    <div className="z-10 h-full w-full overflow-hidden rounded-xl border border-gray-200 opacity-80 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70">
+      <img src="https://i.ibb.co/7bmJpK1/modern-stationary-collection-arrangement.jpg" className="animate-fade-in block h-[20rem] w-full -ml-14 scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110" alt="" />
+    </div>
+    <div className="absolute bottom-0 z-20 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110">
+      <h1 className="font-serif text-2xl font-bold text-white shadow-xl">Azores</h1>
+      <h1 className="text-sm font-light text-gray-200 shadow-xl">A Little Paradise in Portugal</h1>
+    </div>
+  </div>
+            </div>
         </SwiperSlide>
 
+{/* slide 07 */}
 
         <SwiperSlide>
-            Slide 7
+        <div className="da relative flex  flex-col justify-center overflow-hidden bg-gray-50">
+  <div className="absolute inset-0 bg-center dark:bg-black"></div>
+  <div className="group relative m-0 flex h-full w-[40rem] rounded-xl shadow-xl ring-gray-900/5 sm:mx-auto sm:max-w-lg">
+    <div className="z-10 h-full w-full overflow-hidden rounded-xl border border-gray-200 opacity-80 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70">
+      <img src="https://i.ibb.co/7bmJpK1/modern-stationary-collection-arrangement.jpg" className="animate-fade-in block h-[20rem] w-full -ml-14 scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110" alt="" />
+    </div>
+    <div className="absolute bottom-0 z-20 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110">
+      <h1 className="font-serif text-2xl font-bold text-white shadow-xl">Azores</h1>
+      <h1 className="text-sm font-light text-gray-200 shadow-xl">A Little Paradise in Portugal</h1>
+    </div>
+  </div>
+            </div>
         </SwiperSlide>
 
+{/* slide 08 */}
 
         <SwiperSlide>
-            Slide 8
+        <div className="da relative flex  flex-col justify-center overflow-hidden bg-gray-50">
+  <div className="absolute inset-0 bg-center dark:bg-black"></div>
+  <div className="group relative m-0 flex h-full w-[40rem] rounded-xl shadow-xl ring-gray-900/5 sm:mx-auto sm:max-w-lg">
+    <div className="z-10 h-full w-full overflow-hidden rounded-xl border border-gray-200 opacity-80 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70">
+      <img src="https://i.ibb.co/7bmJpK1/modern-stationary-collection-arrangement.jpg" className="animate-fade-in block h-[20rem] w-full -ml-14 scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110" alt="" />
+    </div>
+    <div className="absolute bottom-0 z-20 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110">
+      <h1 className="font-serif text-2xl font-bold text-white shadow-xl">Azores</h1>
+      <h1 className="text-sm font-light text-gray-200 shadow-xl">A Little Paradise in Portugal</h1>
+    </div>
+  </div>
+            </div>
         </SwiperSlide>
 
+{/* slide 09 */}
 
         <SwiperSlide>
-            Slide 9
+        <div className="da relative flex  flex-col justify-center overflow-hidden bg-gray-50">
+  <div className="absolute inset-0 bg-center dark:bg-black"></div>
+  <div className="group relative m-0 flex h-full w-[40rem] rounded-xl shadow-xl ring-gray-900/5 sm:mx-auto sm:max-w-lg">
+    <div className="z-10 h-full w-full overflow-hidden rounded-xl border border-gray-200 opacity-80 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70">
+      <img src="https://i.ibb.co/7bmJpK1/modern-stationary-collection-arrangement.jpg" className="animate-fade-in block h-[20rem] w-full -ml-14 scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110" alt="" />
+    </div>
+    <div className="absolute bottom-0 z-20 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110">
+      <h1 className="font-serif text-2xl font-bold text-white shadow-xl">Azores</h1>
+      <h1 className="text-sm font-light text-gray-200 shadow-xl">A Little Paradise in Portugal</h1>
+    </div>
+  </div>
+            </div>
         </SwiperSlide>
 
         
