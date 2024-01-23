@@ -7,6 +7,7 @@ import {
 } from "@material-tailwind/react";
 import { MdMenu } from "react-icons/md";
 import { RxCross2 } from "react-icons/rx";
+import "./navbar.css"
 
 function NavList() {
   return (
@@ -18,7 +19,7 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
+        <a href="#" className="flex items-center hover:text-[#23b6e2] transition-colors">
           Home
         </a>
       </Typography>
@@ -28,7 +29,7 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
+        <a href="#" className="flex items-center hover:text-[#23b6e2] transition-colors">
           Projects
         </a>
       </Typography>
@@ -38,7 +39,7 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
+        <a href="#" className="flex items-center hover:text-[#23b6e2] transition-colors">
           Services
         </a>
       </Typography>
@@ -48,7 +49,7 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
+        <a href="#" className="flex items-center hover:text-[#23b6e2] transition-colors">
           Blogs
         </a>
       </Typography>
@@ -58,7 +59,7 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
+        <a href="#" className="flex items-center hover:text-[#23b6e2] transition-colors">
           Contact
         </a>
       </Typography>
@@ -105,11 +106,11 @@ const Navbars = () => {
         >
           {openNav ? (
             
-            <RxCross2></RxCross2>
+            <RxCross2 className="text-2xl"></RxCross2>
           ) :
 
            (
-            <MdMenu ></MdMenu>
+            <MdMenu className="text-2xl"></MdMenu>
           )}
         </IconButton>
       </div>

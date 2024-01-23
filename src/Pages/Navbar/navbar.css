@@ -1,7 +1,7 @@
-.active {
+/* .active {
     font-size: 18px;
-    /* margin-left: 24px;
-    transition: color ease-in-out 300ms; */
+    margin-left: 24px;
+    transition: color ease-in-out 300ms;
     color: #002172;
     font-weight: 600;
   }
@@ -42,4 +42,22 @@
   .animate-jump {
     animation: jump 1s ease ;
   }
-  
+   */
+
+  a{
+    position: relative;
+    text-decoration: none;
+    }
+    a:after{
+    content: "";
+    position: absolute;
+    background-color: #23b6e2;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -7px;
+    transition: 0.3s;
+    }
+    a:hover:after{
+      width: 100%;
+    }
