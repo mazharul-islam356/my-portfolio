@@ -10,7 +10,8 @@ import { RxCross2 } from "react-icons/rx";
 
 function NavList() {
   return (
-    <ul className="my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+   <div>
+     <ul className="my-2  flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       <Typography
         as="li"
         variant="small"
@@ -62,6 +63,7 @@ function NavList() {
         </a>
       </Typography>
     </ul>
+   </div>
   );
 }
 const Navbars = () => {
@@ -82,8 +84,8 @@ const Navbars = () => {
     
 
     return (
-      <Navbar className="mt-2 px-6 py-4">
-      <div className="flex items-center justify-between text-blue-gray-900">
+      <Navbar className="mt-2 sticky top-0 z-10 max-w-full px-6 py-4">
+      <div className="flex w-11/12 mx-auto items-center justify-between text-blue-gray-900">
         <Typography
           as="a"
           href="#"
@@ -119,3 +121,16 @@ const Navbars = () => {
 };
 
 export default Navbars;
+
+
+
+
+
+
+
+
+
+
+
+
+  
