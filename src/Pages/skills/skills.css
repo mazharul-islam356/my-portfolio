@@ -46,10 +46,31 @@
     stroke-dashoffset: 450;
     animation: anim2 2.5s linear forwards;
 }
+.circle3{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 450;
+    stroke-dashoffset: 450;
+    animation: anim3 2.5s linear forwards;
+}
+.circle4{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 450;
+    stroke-dashoffset: 450;
+    animation: anim3 2.5s linear forwards;
+}
+
+
+
+
+
 
 @keyframes anim {
     100%{
-        stroke-dashoffset: 57;
+        stroke-dashoffset: 40;
     }
 }
 @keyframes anim2 {
@@ -57,6 +78,21 @@
         stroke-dashoffset: 67.5;
     }
 }
+@keyframes anim3 {
+    100%{
+        stroke-dashoffset: 193;
+    }
+}
+@keyframes anim3 {
+    100%{
+        stroke-dashoffset: 135;
+    }
+}
+
+
+
+
+
 
 .skillSvg{
     position: absolute;

@@ -52,8 +52,8 @@ const Skills = () => {
    <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
    
    {
-                                       counterOn && 
-                                       <svg className='absolute top-0 left-0 animate-anim duration-2500 ease-linear-in-out' xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+    counterOn && 
+    <svg className='absolute top-0 left-0 animate-anim duration-2500 ease-linear-in-out' xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
    <defs>
    <linearGradient id="GradientColor">
    <stop offset="0%" stop-color="#DA22FF" />
@@ -89,15 +89,15 @@ const Skills = () => {
    <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
    
    {
-                                       counterOn && 
-                                       <svg className='absolute top-0 left-0 animate-anim2 duration-2500 ease-linear-in-out' xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+    counterOn && 
+    <svg className='absolute top-0 left-0 animate-anim2 duration-2500 ease-linear-in-out' xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
    <defs>
    <linearGradient id="GradientColor">
    <stop offset="0%" stop-color="#DA22FF" />
    <stop offset="100%" stop-color="#9733EE"/>
    </linearGradient>
    </defs>
-   <circle className='circle' cx="80" cy="80" r="70" stroke-linecap="round" />
+   <circle className='circle2' cx="80" cy="80" r="70" stroke-linecap="round" />
    </svg>
                                    }
    
@@ -129,14 +129,14 @@ const Skills = () => {
    
    {
                                        counterOn && 
-                                       <svg className='absolute top-0 left-0 animate-anim2 duration-2500 ease-linear-in-out' xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                                       <svg className='absolute top-0 left-0 animate-anim3 duration-2500 ease-linear-in-out' xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
    <defs>
    <linearGradient id="GradientColor">
    <stop offset="0%" stop-color="#DA22FF" />
    <stop offset="100%" stop-color="#9733EE"/>
    </linearGradient>
    </defs>
-   <circle className='circle' cx="80" cy="80" r="70" stroke-linecap="round" />
+   <circle className='circle3' cx="80" cy="80" r="70" stroke-linecap="round" />
    </svg>
                                    }
    
@@ -176,7 +176,7 @@ const Skills = () => {
    <stop offset="100%" stop-color="#9733EE"/>
    </linearGradient>
    </defs>
-   <circle className='circle' cx="80" cy="80" r="70" stroke-linecap="round" />
+   <circle className='circle4' cx="80" cy="80" r="70" stroke-linecap="round" />
    </svg>
                                    }
    
