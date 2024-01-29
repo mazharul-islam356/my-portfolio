@@ -85,13 +85,14 @@ const Navbars = () => {
     
 
     return (
-      <Navbar className="mt-2 sticky top-0 z-10 max-w-full px-6 py-4">
+      <Navbar 
+     className="mt-2 sticky top-0 z-10 shadow-md max-w-full px-6 py-4">
       <div className="flex w-11/12 mx-auto items-center justify-between text-blue-gray-900">
         <Typography
           as="a"
           href="#"
           variant="h6"
-          className="mr-4 text-xl font-semibold cursor-pointer py-1.5"
+          className="mr-4 text-xl font-semibold cursor-pointer "
         >
           Mazhar
         </Typography>

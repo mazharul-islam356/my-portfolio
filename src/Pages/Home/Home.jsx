@@ -3,7 +3,7 @@ const Home = () => {
     return (
         <div>
             
-            <div className="flex h-screen justify-evenly space-y-3 gap-8 items-center">
+            <div className="flex h-screen w-full justify-evenly space-y-3 gap-8 items-center">
                 <div>
                     <h3 className="text-3xl">Hello</h3>
                     <h2 className="text-2xl">I am <span className="font-semibold">Mazharul Islam</span></h2>
