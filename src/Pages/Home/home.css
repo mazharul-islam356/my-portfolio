@@ -29,7 +29,7 @@
 
   width: 100%;
   position: relative;
-  border: 3px solid #6495f2;
+  border: 3px solid #9fd3bd;
   border-radius: 50%;
   display: flex;
   display: -webkit-flex;
@@ -41,8 +41,8 @@
   -webkit-animation: Rotate 20s linear infinite;
 }
 .icon-block {
-  width: 64px;
-  height: 64px;
+  width: 55px;
+  height: 55px;
   position: absolute;
   border-radius: 50%;
   display: flex;
@@ -51,14 +51,34 @@
   -webkit-align-items: center;
   justify-content: center;
   -webkit-justify-content: center;
-  background-image: linear-gradient(180deg, #4967e6 0%, #627bf4 100%);
-  -webkit-background-image: linear-gradient(180deg, #4967e6 0%, #627bf4 100%);
-  box-shadow: 0 2px 4px 0 #3e5ada;
-  -webkit-box-shadow: 0 2px 4px 0 #3e5ada;
+  box-shadow: 0 2px 5px 0 #9fd3bd;
+  -webkit-box-shadow: 0 2px 4px 0 #9fd3bd;
+}
+.icon-block-f {
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  border-radius: 50%;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+  box-shadow: 0 2px 4px 0 #9fd3bd;
+  -webkit-box-shadow: 0 2px 4px 0 #9fd3bd;
 }
 .icon-block img {
   margin: 0px auto;
-  width: 86%;
+  width: 70%;
+  padding: 4px;
+  animation: Rotate-reverse 20s linear infinite;
+  -webkit-animation: Rotate-reverse 20s linear infinite;
+}
+.icon-block-f img {
+  margin: 0px auto;
+  width: 70%;
+  padding: 7px;
   animation: Rotate-reverse 20s linear infinite;
   -webkit-animation: Rotate-reverse 20s linear infinite;
 }
@@ -68,6 +88,13 @@
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
 }
+.icon-block-f {
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
 .icon-block:nth-child(2) {
   top: 50%;
   right: 0;
@@ -97,7 +124,7 @@
   -webkit-transform: translate(-50%, -50%) rotate(45deg);
   width: 65%;
   height: 65%;
-  border: 3px solid #6495f2;
+  border: 3px solid #9fd3bd;
   border-radius: 50%;
 }
 .circle .icon-block img {
