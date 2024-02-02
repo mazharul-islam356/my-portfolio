@@ -1,15 +1,15 @@
 import './home.css'
 const Home = () => {
     return (
-        <div className="bg-[url('https://i.ibb.co/ThFKHm4/gg.jpg')] bg-no-repeat">
+        <div>
             
-            <div className="flex h-screen w-full items-center justify-evenly space-y-3 gap-64 justify-items-center">
+            <div className="flex h-screen items-center justify-evenly space-y-3 gap-64 justify-items-center ml-4">
                 <div>
                   
-                <h2 className="text-2xl w-96 mx-auto">I am <span className="font-semibold">Mazharul Islam</span></h2>
-                    <h3 className="text-xl w-96 mx-auto">Frontend developer</h3>
-                    <p className="w-96 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, neque!Lorem</p>
-                    <button className="btn btn-outline">Download CV</button>
+                <h2 className="text-5xl mb-0.5 w-full mx-auto">I am <span className="font-semibold">Mazharul Islam</span></h2>
+                    <h3 className="text-2xl w-full mx-auto">________________Frontend developer</h3>
+                    <p className="w-[28rem] text-xl mt-1 mb-6 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, neque!Lorem</p>
+                    <button className="btn btn-outline  btn-ghost">Download CV</button>
 
                 </div>
                 
