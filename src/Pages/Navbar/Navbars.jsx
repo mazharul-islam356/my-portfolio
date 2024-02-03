@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Navbar,
   Collapse,
@@ -8,6 +7,15 @@ import {
 import { MdMenu } from "react-icons/md";
 import { RxCross2 } from "react-icons/rx";
 import "./navbar.css"
+import * as React from 'react';
+import PropTypes from 'prop-types';
+import AppBar from '@mui/material/AppBar';
+import Toolbar from '@mui/material/Toolbar';
+import CssBaseline from '@mui/material/CssBaseline';
+import useScrollTrigger from '@mui/material/useScrollTrigger';
+
+
+
 
 function NavList() {
   return (
@@ -67,7 +75,30 @@ function NavList() {
    </div>
   );
 }
-const Navbars = () => {
+
+
+function ElevationScroll(props) {
+
+
+   
+  const { children, window } = props;
+  const trigger = useScrollTrigger({
+    disableHysteresis: true,
+    threshold: 0,
+    target: window ? window() : undefined,
+  });
+
+  return React.cloneElement(children, {
+    elevation: trigger ? 4 : 0,
+  });
+}
+
+Navbars.propTypes = {
+  children: PropTypes.element.isRequired,
+  window: PropTypes.func,
+};
+
+export default function Navbars(props) {
 
   const [openNav, setOpenNav] = React.useState(false);
  
@@ -81,18 +112,22 @@ const Navbars = () => {
       window.removeEventListener("resize", handleWindowResize);
     };
   }, []);
-   
-    
 
-    return (
-      <Navbar 
-     className="mt-2 sticky top-0 z-10 shadow-md max-w-full px-6 py-4">
+
+  return (
+    <React.Fragment>
+      <CssBaseline />
+      <ElevationScroll {...props}>
+        <AppBar color=''>
+          <Toolbar>
+          <Navbar 
+     className="mt-2 sticky  top-0 z-10 shadow-none max-w-full px-6 py-4">
       <div className="flex w-11/12 mx-auto items-center justify-between text-blue-gray-900">
         <Typography
           as="a"
           href="#"
           variant="h6"
-          className="mr-4 text-xl font-semibold cursor-pointer "
+          className="mr-4 text-xl font-semibold"
         >
           Mazhar
         </Typography>
@@ -119,17 +154,14 @@ const Navbars = () => {
         <NavList />
       </Collapse>
     </Navbar>
-    );
-};
-
-export default Navbars;
-
-
-
-
-
-
-
+          </Toolbar>
+        </AppBar>
+      </ElevationScroll>
+      <Toolbar />
+     
+    </React.Fragment>
+  );
+}
 
 
 

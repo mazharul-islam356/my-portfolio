@@ -19,8 +19,8 @@
 }
 .main {
   margin: 0px auto;
-  width: 480px;
-  height: 480px;
+  width: 450px;
+  height: 450px;
   position: relative;
   padding: 30px;
 }
@@ -140,8 +140,8 @@
   -webkit-transform: translate(-50%, -50%);
 }
 .center-logo img {
-  max-width: 300px;
-  max-height: 270px;
+  max-width: 250px;
+  max-height: 250px;
 }
 
 /* keyframe animation */

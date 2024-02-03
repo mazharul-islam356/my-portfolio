@@ -3,12 +3,12 @@ const Home = () => {
     return (
         <div>
             
-            <div className="flex h-screen items-center justify-evenly space-y-3 gap-64 justify-items-center ml-4">
-                <div>
-                  
-                <h2 className="text-5xl mb-0.5 w-full mx-auto">I am <span className="font-semibold">Mazharul Islam</span></h2>
-                    <h3 className="text-2xl w-full mx-auto">________________Frontend developer</h3>
-                    <p className="w-[28rem] text-xl mt-1 mb-6 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, neque!Lorem</p>
+            <div className="grid lg:grid-cols-2 h-screen items-center justify-evenly justify-items-center lg:ml-10 font-sans">
+
+                <div>  
+                <h2 className="text-5xl mb-0.5">I am <span className="font-semibold">Mazharul Islam</span></h2>
+                    <h3 className="text-2xl w-full mx-auto">_____________Frontend developer</h3>
+                    <p className="w-[35rem] text-xl mt-4 mb-6 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, neque!Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, ducimus.</p>
                     <button className="btn btn-outline  btn-ghost">Download CV</button>
 
                 </div>
@@ -44,7 +44,7 @@ const Home = () => {
       </div>
     </div>
     <div className="center-logo p-10">
-      <img className='rounded-full w-52 h-56 ' src="https://i.ibb.co/55vQG7W/mazhar.jpg" alt="logo" />
+      <img className='rounded-full w-48 h-48 ' src="https://i.ibb.co/55vQG7W/mazhar.jpg" alt="logo" />
     </div>
   </div>
 </section>
