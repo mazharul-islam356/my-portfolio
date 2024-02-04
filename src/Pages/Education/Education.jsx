@@ -8,10 +8,10 @@ const Education = () => {
       <div className="flex flex-col justify-center items-center">
      <div className="flex gap-2 items-center">
      <div className="text-2xl mb-4">
-     <FaUserGraduate />
-     </div>
      
-            <h1 className="text-2xl font-semibold mb-4">Education</h1>
+     </div>
+     <iframe className="w-40" src="https://lottie.host/embed/de037b31-9e29-426f-87b6-6ff02ca9c77c/uhIlqDczwM.json"></iframe>
+            <h1 className="text-2xl font-semibold">Education</h1>
      </div>
 
 

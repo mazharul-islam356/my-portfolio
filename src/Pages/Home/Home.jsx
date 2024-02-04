@@ -12,10 +12,14 @@ const Home = () => {
                 <div className='flex gap-10'>
 
                   {/* icon */}
-                  <div className='space-y-4'>
-                    <div><FaFacebook /></div>
-                    <div><FaLinkedin /></div>
-                    <div><FaGithub /></div>
+                  <div className=''>
+                    <div><iframe className='w-16' src="https://lottie.host/embed/2d74bdbc-a611-42d8-9125-e5bfb131b392/PtDZYazcaC.json"></iframe></div>
+
+
+                    <div><iframe className='w-14 relative bottom-16 left-1' src="https://lottie.host/embed/c7ebf29d-3f3b-4624-a58e-5df52e77cd4f/R5aaSnZpjC.json"></iframe></div>
+
+                    <div><iframe className='w-10 relative bottom-32 left-2.5' src="https://lottie.host/embed/adb77681-b995-4209-ade7-c983c0cbfec5/S6QCkO4TMO.json"></iframe></div>
+
                   </div>
 
 
