@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable react/jsx-no-target-blank */
 
-import { FaUserGraduate } from "react-icons/fa";
 const Education = () => {
   return (
     <div>

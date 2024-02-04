@@ -1,7 +1,4 @@
 import './home.css'
-import { FaFacebook } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa6";
-import { FaGithub } from "react-icons/fa";
 
 const Home = () => {
     return (
@@ -26,7 +23,7 @@ const Home = () => {
 
                 <div className=''>  
                  
-                 <h2 className="text-5xl mb-0.5">I am <span className="font-semibold">Mazharul Islam</span></h2>
+                 <h2 className="text-5xl mb-0.5 mt-12">I am <span className="font-semibold">Mazharul Islam</span></h2>
                      <h3 className="text-2xl w-full mx-auto">_____________Frontend developer</h3>
                      <p className="w-[35rem] text-xl mt-4 mb-6 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, neque!Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, ducimus.</p>
                      <button className="btn btn-outline  btn-ghost">Download CV</button>
