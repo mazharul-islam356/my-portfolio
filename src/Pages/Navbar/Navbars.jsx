@@ -122,7 +122,7 @@ export default function Navbars(props) {
           <Toolbar>
           <Navbar 
      className="mt-2 sticky  top-0 z-10 shadow-none max-w-full px-6 py-4">
-      <div className="flex w-11/12 mx-auto items-center justify-between text-blue-gray-900">
+      <div className="flex w-10/12 mx-auto items-center justify-between text-blue-gray-900">
         <Typography
           as="a"
           href="#"
