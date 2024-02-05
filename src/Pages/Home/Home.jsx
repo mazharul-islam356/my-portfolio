@@ -61,8 +61,8 @@ const Home = () => {
         <img src="https://i.ibb.co/Bg7T9Kv/file-type-reactjs-256x228.png" alt="react" />
       </div>
     </div>
-    <div className="center-logo p-10">
-      <img className='rounded-full w-48 h-48 ' src="https://i.ibb.co/55vQG7W/mazhar.jpg" alt="logo" />
+    <div className="center-logo">
+      <img className='rounded-full relative w-48' src="https://i.ibb.co/xYQFJr6/Untitled-1.png" alt="logo" />
       {/* <iframe src="https://lottie.host/embed/99f9bbc8-09bb-4aba-98ce-6b2188aec6fd/LQVzsWhUMm.json"></iframe> */}
     </div>
   </div>
