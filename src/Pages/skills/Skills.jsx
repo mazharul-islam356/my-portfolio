@@ -17,7 +17,7 @@ const Skills = () => {
 
         
         <div className="mt-20">
-            
+            <iframe className="w-32 top-[5.5rem] left-[34rem] relative" src="https://lottie.host/embed/41bb23a7-2a50-4954-b84a-da78d857cfb0/1vfKwk3vNP.json"></iframe>
 <h1 className="text-2xl font-semibold text-center">Skills</h1>
 
    <div className='grid grid-cols-2 justify-center items-center gap-20 ml-72 mt-10'>
@@ -128,8 +128,8 @@ const Skills = () => {
    <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
    
    {
-                                       counterOn && 
-                                       <svg className='absolute top-0 left-0 animate-anim3 duration-2500 ease-linear-in-out' xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+    counterOn && 
+    <svg className='absolute top-0 left-0 animate-anim3 duration-2500 ease-linear-in-out' xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
    <defs>
    <linearGradient id="GradientColor">
    <stop offset="0%" stop-color="#DA22FF" />
@@ -168,8 +168,8 @@ const Skills = () => {
    <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
    
    {
-                                       counterOn && 
-                                       <svg className='absolute top-0 left-0 animate-anim2 duration-2500 ease-linear-in-out' xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+    counterOn && 
+    <svg className='absolute top-0 left-0 animate-anim2     duration-2500 ease-linear-in-out' xmlns="http://www.w3.    org/2000/svg" version="1.1" width="160px"     height="160px">
    <defs>
    <linearGradient id="GradientColor">
    <stop offset="0%" stop-color="#DA22FF" />

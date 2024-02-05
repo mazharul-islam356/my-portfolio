@@ -10,6 +10,7 @@ const Projects = () => {
   
     return (
         <div className="mt-40">
+          <iframe className="w-32 top-[5.5rem] left-[32rem] relative" src="https://lottie.host/embed/5a15d394-2bcb-493e-b70a-c2fbab655b55/6ThKMwg0XV.json"></iframe>
             <h1 className="text-2xl font-semibold text-center mb-20">Projects</h1>
             
 
