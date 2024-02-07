@@ -17,8 +17,8 @@ const Skills = () => {
 
         
         <div className="mt-20">
-            <iframe className="w-32 top-[5.5rem] left-[34rem] relative" src="https://lottie.host/embed/41bb23a7-2a50-4954-b84a-da78d857cfb0/1vfKwk3vNP.json"></iframe>
-<h1 className="text-2xl font-semibold text-center">Skills</h1>
+            <iframe className="w-32 top-[5.8rem] left-[33rem] relative" src="https://lottie.host/embed/41bb23a7-2a50-4954-b84a-da78d857cfb0/1vfKwk3vNP.json"></iframe>
+<h1 className="text-3xl font-semibold text-center">Skills</h1>
 
    <div className='grid grid-cols-2 justify-center items-center gap-20 ml-72 mt-10'>
 
@@ -167,30 +167,23 @@ const Skills = () => {
                </div>
    <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
    
-   {
-    counterOn && 
-    <svg className='absolute top-0 left-0 animate-anim2     duration-2500 ease-linear-in-out' xmlns="http://www.w3.    org/2000/svg" version="1.1" width="160px"     height="160px">
-   <defs>
-   <linearGradient id="GradientColor">
-   <stop offset="0%" stop-color="#DA22FF" />
-   <stop offset="100%" stop-color="#9733EE"/>
-   </linearGradient>
-   </defs>
-   <circle className='circle4' cx="80" cy="80" r="70" stroke-linecap="round" />
-   </svg>
-                                   }
+        {
+        counterOn && 
+        <svg className='absolute top-0 left-0 animate-anim2     duration-2500 ease-linear-in-out' xmlns="http://www.w3.    org/2000/svg" version="1.1" width="160px"     height="160px">
+        <defs>
+        <linearGradient id="GradientColor">
+        <stop offset="0%" stop-color="#DA22FF" />
+        <stop offset="100%" stop-color="#9733EE"/>
+        </linearGradient>
+        </defs>
+        <circle className='circle4' cx="80" cy="80" r="70" stroke-linecap="round" />
+        </svg>
+            }
    
    </ScrollTrigger>
-               </div>
-   
-   
-              </div>
-             
-   
-   
-               
-             
-               </div>
+                    </div>
+                </div>    
+             </div>
           </div>
 
 
@@ -206,20 +199,20 @@ const Skills = () => {
     
                <div className='grid grid-cols-2 gap-x-36 gap-y-4 justify-between items-center justify-items-center'>
     
-             {/* progress bar html */}
+             {/* progress bar photoshop */}
              <div className="skills mr-4">
                 <div className="outer ">
                     <div className="inner">
-                   <img className='w-8 mr-1' src="https://i.ibb.co/JjzqBQ0/html-5-1.png" alt="" />
+                   <img className='w-8 relative bottom-3 left-6' src="https://i.ibb.co/TgCBLVQ/photoshop.png" alt="" />
                 <div id="number flex flex-row">
                 <h1 className="font-bold  lg:leading-normal leading-7 text-[#101010]">
                                 <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
                                     {
-                                        counterOn && <CountUp start={0} end={90} duration={3} delay={0} />
+                                        counterOn && <CountUp start={0} end={60} duration={3} delay={0} />
                                     }%
                                 </ScrollTrigger>
                             </h1>
-                <p className='font-bold'>Html 5</p>
+                <p className='font-bold relative right-2 top-1'>Photoshop</p>
                 </div>
                     </div>
                 </div>
@@ -234,7 +227,7 @@ const Skills = () => {
     <stop offset="100%" stop-color="#9733EE"/>
     </linearGradient>
     </defs>
-    <circle className='circle' cx="80" cy="80" r="70" stroke-linecap="round" />
+    <circle className='circle5' cx="80" cy="80" r="70" stroke-linecap="round" />
     </svg>
                                     }
     
@@ -243,20 +236,20 @@ const Skills = () => {
                 
     
     
-                {/* progress bar css */}
+                {/* progress bar illustrator */}
                 <div className="skills mr-4">
                 <div className="outer ">
                     <div className="inner">
-                   <img className='w-8 mr-1' src="https://i.ibb.co/JFgxHJW/css-3.png" alt="" />
+                   <img className='w-8 relative bottom-3 left-5' src="https://i.ibb.co/QPg5NnN/illustrator.png" alt="" />
                 <div id="number">
                 <h1 className="font-bold  lg:leading-normal leading-7 text-[#101010]">
                                 <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
                                     {
-                                        counterOn && <CountUp start={0} end={85} duration={3} delay={0} />
+                                        counterOn && <CountUp start={0} end={40} duration={3} delay={0} />
                                     }%
                                 </ScrollTrigger>
                             </h1>
-                <p className='font-bold'>Css 3</p>
+                <p className='font-bold relative right-2 top-1'>illustrator</p>
                 </div>
                     </div>
                 </div>
@@ -271,7 +264,7 @@ const Skills = () => {
     <stop offset="100%" stop-color="#9733EE"/>
     </linearGradient>
     </defs>
-    <circle className='circle' cx="80" cy="80" r="70" stroke-linecap="round" />
+    <circle className='circle6' cx="80" cy="80" r="70" stroke-linecap="round" />
     </svg>
                                     }
     
@@ -281,20 +274,20 @@ const Skills = () => {
     
     
     
-                {/* progress bar react */}
+                {/* progress bar Figma */}
                 <div className="skills mr-4">
                 <div className="outer ">
                     <div className="inner">
-                   <img className='w-8 mr-1' src="https://i.ibb.co/N3B2kYk/science.png" alt="" />
+                   <img className='w-8 mr-1' src="https://i.ibb.co/5nS6NzW/figma.png" alt="" />
                 <div id="number">
                 <h1 className="font-bold  lg:leading-normal leading-7 text-[#101010]">
                                 <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
                                     {
-                                        counterOn && <CountUp start={0} end={56} duration={3} delay={0} />
+                                        counterOn && <CountUp start={0} end={30} duration={3} delay={0} />
                                     }%
                                 </ScrollTrigger>
                             </h1>
-                <p className='font-bold'>React js</p>
+                <p className='font-bold'>Figma</p>
     
                 </div>
                     </div>
@@ -310,7 +303,7 @@ const Skills = () => {
     <stop offset="100%" stop-color="#9733EE"/>
     </linearGradient>
     </defs>
-    <circle className='circle' cx="80" cy="80" r="70" stroke-linecap="round" />
+    <circle className='circle7' cx="80" cy="80" r="70" stroke-linecap="round" />
     </svg>
                                     }
     
@@ -318,23 +311,23 @@ const Skills = () => {
                 </div>
     
     
-                {/* progress bar mongoDB */}
+                {/* progress bar Canva */}
                 <div className="skills mr-4">
                 <div className="outer ">
                     <div className="inner">
-                   <img className='w-8 mr-1' src="https://i.ibb.co/dmJgfPq/database-storage.png" alt="" />
+                   <img className='w-8 mr-1' src="https://i.ibb.co/nbN890V/canva-icon.png" alt="" />
                    
                 <div id="number flex flex-row">
                 <h1 className="font-bold  lg:leading-normal leading-7 text-[#101010]">
                                 <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
                                     {
-                                        counterOn && <CountUp start={0} end={70} duration={3} delay={0} />
+                                        counterOn && <CountUp start={0} end={75} duration={3} delay={0} />
                                     }%
                                 </ScrollTrigger> 
                                 
                             </h1>
                             
-                <p className='font-bold'>MongoDB</p>
+                <p className='font-bold'>Canva</p>
                 </div> 
                     </div>
                     
@@ -342,15 +335,15 @@ const Skills = () => {
     <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
     
     {
-                                        counterOn && 
-                                        <svg className='absolute top-0 left-0 animate-anim2 duration-2500 ease-linear-in-out' xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+    counterOn && 
+    <svg className='absolute top-0 left-0 animate-anim2 duration-2500 ease-linear-in-out' xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
     <defs>
     <linearGradient id="GradientColor">
     <stop offset="0%" stop-color="#DA22FF" />
     <stop offset="100%" stop-color="#9733EE"/>
     </linearGradient>
     </defs>
-    <circle className='circle' cx="80" cy="80" r="70" stroke-linecap="round" />
+    <circle className='circle8' cx="80" cy="80" r="70" stroke-linecap="round" />
     </svg>
                                     }
     
