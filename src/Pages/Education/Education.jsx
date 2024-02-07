@@ -10,25 +10,16 @@ const Education = () => {
      
      </div>
      <iframe className="w-40" src="https://lottie.host/embed/de037b31-9e29-426f-87b6-6ff02ca9c77c/uhIlqDczwM.json"></iframe>
-            <h1 className="text-2xl font-semibold">Education</h1>
+            <h1 className="text-3xl mt-4 mr-2 font-semibold relative right-4">Education</h1>
      </div>
-
 
             <div className="flex flex-col justify-evenly gap-10 ">
                
-                <div className="timeline-right">
-               
-               
+                <div className="timeline-right">              
                 </div>
-            </div>
-            
-<div>
+            </div>     
+      <div>
   
-
-  
- 
- 
-
  
   <div className="flex gap-x-3 mt-10">
     
@@ -40,7 +31,7 @@ const Education = () => {
   
 
     <div className="grow pt-0.5 pb-8">
-    <h3 className="font-semibold">Darunnazat Siddiqia Kamil Madrasah</h3>
+    <h3 className="font-semibold text-xl">Darunnazat Siddiqia Kamil Madrasah</h3>
     <p>2015-Present(Fazil 1st year)</p>
     </div>
 
@@ -57,7 +48,7 @@ const Education = () => {
   
 
     <div className="grow pt-0.5 pb-8">
-    <h3 className="font-semibold">Govt. Tolaram Collage and University</h3>
+    <h3 className="font-semibold text-xl">Govt. Tolaram Collage and University</h3>
                 <p>2023-Present(Honors 1st year)</p>
     </div>
 

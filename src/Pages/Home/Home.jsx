@@ -6,10 +6,10 @@ const Home = () => {
             
             <div className="grid lg:grid-cols-2 w-10/12 mx-auto h-screen items-center justify-evenly justify-items-center font-sans">
             
-                <div className='flex gap-10'>
+                <div className='flex gap-56 mt-12'>
 
                   {/* icon */}
-                  <div className=''>
+                  <div className='mt-16 relative left-[5.5rem]'>
                     <div><iframe className='w-16' src="https://lottie.host/embed/2d74bdbc-a611-42d8-9125-e5bfb131b392/PtDZYazcaC.json"></iframe></div>
 
 
@@ -21,19 +21,20 @@ const Home = () => {
 
 
 
-                <div className=''>  
+                <div className='mt-12'>  
                  
                  <h2 className="text-5xl mb-0.5 mt-12">I am <span className="font-semibold">Mazharul Islam</span></h2>
                      <h3 className="text-2xl w-full mx-auto">_____________Frontend developer</h3>
                      <p className="w-[35rem] text-xl mt-4 mb-6 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, neque!Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, ducimus.</p>
                      <button className="btn btn-outline  btn-ghost">Download CV</button>
+                     <button className="btn btn-outline  btn-ghost ml-6">Contact Now</button>
  
                  </div>
                 </div>
                 
-                <section className="main-container">
-  <div className="main">
-    <div className="big-circle">
+<section className="main-container">
+    <div className="main ml-24 mb-2">
+      <div className="big-circle">
       <div className="icon-block">
         <img src="https://i.ibb.co/JjzqBQ0/html-5-1.png" alt="web design icon" />
       </div>
@@ -62,7 +63,7 @@ const Home = () => {
       </div>
     </div>
     <div className="center-logo">
-      <img className='rounded-full relative w-48' src="https://i.ibb.co/xYQFJr6/Untitled-1.png" alt="logo" />
+      <img className='rounded-full relative w-[11.3rem] mb-3' src="https://i.ibb.co/xYQFJr6/Untitled-1.png" alt="logo" />
       {/* <iframe src="https://lottie.host/embed/99f9bbc8-09bb-4aba-98ce-6b2188aec6fd/LQVzsWhUMm.json"></iframe> */}
     </div>
   </div>
