@@ -17,15 +17,15 @@ const Skills = () => {
 
         
         <div className="mt-20">
-            <iframe className="w-32 top-[5.8rem] left-[33rem] relative" src="https://lottie.host/embed/41bb23a7-2a50-4954-b84a-da78d857cfb0/1vfKwk3vNP.json"></iframe>
+            <iframe className="w-32 top-[5.8rem] lg:left-[33rem] relative" src="https://lottie.host/embed/41bb23a7-2a50-4954-b84a-da78d857cfb0/1vfKwk3vNP.json"></iframe>
 <h1 className="text-3xl font-semibold text-center">Skills</h1>
 
-   <div className='grid grid-cols-2 justify-center items-center gap-20 ml-72 mt-10'>
+   <div className='grid lg:grid-cols-2 justify-center items-center gap-20 ml-72 mt-10'>
 
          {/* coding skills */}
          <div>
           
-          <div className="grid text-center mt-4 grid-cols-2 justify-center items-center">
+          <div className="grid text-center mt-4 lg:grid-cols-2 justify-center items-center">
                
                <div id="scroll-progress">
                </div>
@@ -189,7 +189,7 @@ const Skills = () => {
 
 
 
-           {/* emni skills */}
+           {/* design skills */}
            <div>
           
            <div className="grid text-center mt-4 grid-cols-2 justify-center items-center">
