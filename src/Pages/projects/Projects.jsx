@@ -14,12 +14,20 @@ const Projects = () => {
             <h1 className="text-2xl font-semibold text-center mb-20">Projects</h1>
             
 
+           
+
             <Swiper
         effect={'cards'}
         grabCursor={true}
         modules={[EffectCards]}
         className="mySwiper lg:w-[27.5em] w-[25em]"
       >
+
+
+
+
+
+
         {/* slide 01 */}
         <SwiperSlide>
 
