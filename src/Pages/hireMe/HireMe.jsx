@@ -6,6 +6,10 @@ import {
     Typography,
     Button,
   } from "@material-tailwind/react";
+import AOS from "aos";
+import { useEffect } from "react";
+import 'aos/dist/aos.css';
+
 
 function CheckIcon() {
   return (
@@ -25,8 +29,12 @@ function CheckIcon() {
     </svg>
   );
 }
+
+
 const HireMe = () => {
-    
+  useEffect(() => {
+    AOS.init();
+  }, [])
     return (
         <div className="h-screen">
              <h1 className="text-2xl font-semibold text-center">Hire me</h1>
@@ -103,7 +111,10 @@ const HireMe = () => {
           Buy Now
         </Button>
       </CardFooter>
-    </Card>
+         </Card>
+
+
+        
              </div>
         </div>
     );
