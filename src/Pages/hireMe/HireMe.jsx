@@ -33,7 +33,7 @@ const HireMe = () => {
              
              <div className="">
 
-             <Card color="gray" variant="gradient" className="w-full max-w-[20rem] p-8">
+             <Card  color="gray" variant="gradient" className="w-full max-w-[20rem] p-8">
       <CardHeader
         floated={false}
         shadow={false}

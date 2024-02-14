@@ -7,9 +7,9 @@ const Card = () => {
 
 
      {/* --------------card 01------------- */}
-        <div className="cards rounded-2xl shadow-xl">
+        <div  className="cards rounded-2xl shadow-xl">
   
-    <div href="" className="card">
+    <div data-aos="fade-up" href="" className="card">
       <img src="https://i.ibb.co/dktMVJZ/web-development-company-1-2022.jpg" className="card__image" alt="" />
       <div className="card__overlay">
         <div className="card__header">
