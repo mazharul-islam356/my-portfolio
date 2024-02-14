@@ -120,9 +120,11 @@ export default function Navbars(props) {
       <ElevationScroll {...props}>
         <AppBar color=''>
           <Toolbar>
+          
           <Navbar 
      className="mt-2 sticky  top-0 z-10 shadow-none max-w-full px-6 py-4">
       <div className="flex w-11/12  mx-auto items-center justify-evenly lg:gap-[48rem] text-blue-gray-900">
+     
         <Typography
           as="a"
           href="#"

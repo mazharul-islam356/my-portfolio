@@ -13,9 +13,13 @@ const MainLayout = () => {
 
     return (
         <div>
+            
             <Navbars></Navbars> 
+             
            <Home></Home>
+           
            <div className="w-11/12 mb-10 mx-auto font-sans">
+
            <Education></Education>
            <WhatIDo></WhatIDo>
            <Skills></Skills>

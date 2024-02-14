@@ -217,3 +217,10 @@
     -webkit-transform: rotate(-405deg);
   }
 }
+
+
+
+
+.animate-blob{
+  animation: ease-in-out 7s infinite;
+}

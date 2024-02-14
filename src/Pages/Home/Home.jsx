@@ -31,6 +31,8 @@ const Home = () => {
  
                  </div>
                 </div>
+
+
                 
 <section className="main-container">
     <div className="main ml-24 mb-2">
@@ -63,6 +65,22 @@ const Home = () => {
       </div>
     </div>
     <div className="center-logo">
+    <div className="absolute -top-10 left-10 w-36 h-36 bg-purple-200 rounded-full mix-blend-multiply filter blur-xl opacity-60 animate-blob">
+              </div>
+              {/* <div className="absolute top-6 -left-20 w-16 h-16 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div> */}
+              <div className="absolute bottom-16 -left-16 w-28 h-28 bg-cyan-200 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-4000"></div>
+
+              <div className="absolute hidden md:block top-40 right-6  w-36 h-36 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-2000"></div>
+
+              <div className="absolute hidden md:block top-20 left-28 w-32 h-32 bg-pink-200 rounded-full mix-blend-multiply filter blur-xl opacity-60 animate-blob"></div>
+
+
+
+
+
+
+
+
       <img className='rounded-full relative w-[11.3rem] mb-3' src="https://i.ibb.co/xYQFJr6/Untitled-1.png" alt="logo" />
       {/* <iframe src="https://lottie.host/embed/99f9bbc8-09bb-4aba-98ce-6b2188aec6fd/LQVzsWhUMm.json"></iframe> */}
     </div>
