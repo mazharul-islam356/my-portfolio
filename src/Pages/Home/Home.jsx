@@ -81,7 +81,7 @@ const Home = () => {
 
 
 
-      <img className='rounded-full relative w-[11.3rem] mb-3' src="https://i.ibb.co/xYQFJr6/Untitled-1.png" alt="logo" />
+      <img className='rounded-full relative w-[11rem] mb-3' src="https://i.ibb.co/xYQFJr6/Untitled-1.png" alt="logo" />
       {/* <iframe src="https://lottie.host/embed/99f9bbc8-09bb-4aba-98ce-6b2188aec6fd/LQVzsWhUMm.json"></iframe> */}
     </div>
   </div>

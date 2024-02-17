@@ -55,8 +55,8 @@ const Projects = () => {
       <img src="https://i.ibb.co/YXX9JSc/high-paying-remote-jobs.jpg" className="animate-fade-in block h-[20rem] w-full -ml-14 scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110" alt="" />
     </div>
     <div className="absolute bottom-0 z-20 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110">
-      <h1 className="font-serif text-2xl font-bold text-white shadow-xl">Azores</h1>
-      <h1 className="text-sm font-light text-gray-200 shadow-xl">A Little Paradise in Portugal</h1>
+      <h1 className="font-serif text-2xl font-bold text-white shadow-xl">Eat and Exelcs</h1>
+      <h1 className="text-sm font-light text-gray-200 shadow-xl">A hostel management website</h1>
     </div>
   </div>
             </div>
