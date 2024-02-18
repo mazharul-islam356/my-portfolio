@@ -1,4 +1,6 @@
 import './home.css'
+import { TypeAnimation } from 'react-type-animation';
+
 
 const Home = () => {
     return (
@@ -24,7 +26,25 @@ const Home = () => {
                 <div className='mt-12'>  
                  
                  <h2 className="text-5xl mb-0.5 mt-12">I am <span className="font-semibold">Mazharul Islam</span></h2>
-                     <h3 className="text-2xl w-full mx-auto">_____________Frontend developer</h3>
+                     {/* <h3 className="text-2xl w-full mx-auto">_____________Frontend developer</h3> */}
+
+                     <TypeAnimation
+      sequence={[
+        // Same substring at the start will only be typed out once, initially
+        'Frontend web developer',
+        500, // wait 1s before replacing "Mice" with "Hamsters"
+        'Full stack developer',
+        500,
+        'Mearn stack developer',
+        500,
+        'Jounior Web developer',
+        500
+      ]}
+      wrapper="span"
+      speed={20}
+      style={{ fontSize: '2em', display: 'inline-block' }}
+      repeat={Infinity}
+    />
                      <p className="max-w-[35rem] lg:w-[35rem] text-xl mt-4 mb-6 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, neque!Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, ducimus.</p>
                      <button className="btn btn-outline  btn-ghost">Download CV</button>
                      <button className="btn btn-outline  btn-ghost ml-6">Contact Now</button>
