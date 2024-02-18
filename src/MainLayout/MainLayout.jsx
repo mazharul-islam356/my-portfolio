@@ -1,6 +1,7 @@
 import Education from "../Pages/Education/Education";
 import Home from "../Pages/Home/Home";
 import Navbars from "../Pages/Navbar/Navbars";
+import Contacts from "../Pages/contacts/Contacts";
 import FunFacts from "../Pages/funFacts/FunFacts";
 import HireMe from "../Pages/hireMe/HireMe";
 import Projects from "../Pages/projects/Projects";
@@ -12,7 +13,7 @@ const MainLayout = () => {
     
 
     return (
-        <div>
+        <div className="pb-6">
             
             <Navbars></Navbars> 
              
@@ -26,6 +27,7 @@ const MainLayout = () => {
            <Projects></Projects>
            <FunFacts></FunFacts>
            <HireMe></HireMe>
+           <Contacts></Contacts>
 
 
 

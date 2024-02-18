@@ -42,7 +42,7 @@ const Home = () => {
       ]}
       wrapper="span"
       speed={20}
-      style={{ fontSize: '2em', display: 'inline-block' }}
+      style={{ fontSize: '1.5em', display: 'inline-block' }}
       repeat={Infinity}
     />
                      <p className="max-w-[35rem] lg:w-[35rem] text-xl mt-4 mb-6 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, neque!Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, ducimus.</p>
