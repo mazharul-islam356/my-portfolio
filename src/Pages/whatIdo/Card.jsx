@@ -30,7 +30,7 @@ const Card = () => {
             <span className="card__status">1 hour ago</span>
           </div>
         </div>
-        <p className="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+        <p className="card__description">I am a proffesional fontend web developer</p>
       </div>
     </div>      
   
@@ -99,9 +99,7 @@ const Card = () => {
     </a>      
      
     </div>
-        
-      
-   
+ 
         </div>
  
        

@@ -10,7 +10,6 @@ import AOS from "aos";
 import { useEffect } from "react";
 import 'aos/dist/aos.css';
 
-
 function CheckIcon() {
   return (
     <svg
@@ -29,7 +28,6 @@ function CheckIcon() {
     </svg>
   );
 }
-
 
 const HireMe = () => {
   useEffect(() => {
