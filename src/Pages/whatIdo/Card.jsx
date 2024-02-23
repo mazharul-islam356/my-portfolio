@@ -50,8 +50,8 @@ const Card = () => {
             <h3 className="card__title font-semibold">Graphic Design</h3>            
             <span className="card__status">1 hour ago</span>
           </div>
-        </div>
-        <p className="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+        </div> 
+        <p className="card__description">I am a thumbnIL DESIGNER</p>
       </div>
     </a>      
   
