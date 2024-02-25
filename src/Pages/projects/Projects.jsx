@@ -73,8 +73,8 @@ const Projects = () => {
       <img src="https://i.ibb.co/QcPD0Cr/6bfe62d6db31abeb2528d6ec66c43afe.jpg" className="animate-fade-in block h-[20rem] w-full -ml-14 scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110" alt="" />
     </div>
     <div className="absolute bottom-0 z-20 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110">
-      <h1 className="font-serif text-2xl font-bold text-white shadow-xl">Azores</h1>
-      <h1 className="text-sm font-light text-gray-200 shadow-xl">A Little Paradise in Portugal</h1>
+      <h1 className="font-serif text-2xl font-bold text-white shadow-xl">Techtophia</h1>
+      <h1 className="text-sm font-light text-gray-200 shadow-xl">A tech mobile website</h1>
     </div>
   </div>
             </div>
@@ -90,8 +90,8 @@ const Projects = () => {
       <img src="https://i.ibb.co/C1gwqW8/istockphoto-1283154274-612x612.jpg" className="animate-fade-in block h-[20rem] w-full -ml-14 scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110" alt="" />
     </div>
     <div className="absolute bottom-0 z-20 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110">
-      <h1 className="font-serif text-2xl font-bold text-white shadow-xl">Azores</h1>
-      <h1 className="text-sm font-light text-gray-200 shadow-xl">A Little Paradise in Portugal</h1>
+      <h1 className="font-serif text-2xl font-bold text-white shadow-xl">Donation Capaign</h1>
+      <h1 className="text-sm font-light text-gray-200 shadow-xl">A Donation website</h1>
     </div>
   </div>
             </div>
