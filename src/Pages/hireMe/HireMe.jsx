@@ -35,9 +35,9 @@ const HireMe = () => {
   }, [])
     return (
         <div className="h-screen">
-             <h1 className="text-2xl font-semibold text-center">Hire me</h1>
+             <h1 className="text-2xl font-semibold text-center mt-20 mb-10">Hire me</h1>
              
-             <div className="grid grid-cols-3 justify-items-center">
+             <div className="grid gap-6 lg:gap-0 lg:grid-cols-3 justify-items-center">
 
              <Card  color="gray" variant="gradient" className="w-full max-w-[20rem] p-8">
       <CardHeader

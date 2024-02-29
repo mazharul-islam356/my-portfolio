@@ -30,11 +30,7 @@ const MainLayout = () => {
            <Contacts></Contacts>
 
 
-
-  
-
-    
-           </div>
+         </div>
 
         </div>
     );
