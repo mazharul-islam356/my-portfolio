@@ -9,9 +9,9 @@ const Projects = () => {
 
   
     return (
-        <div className="mt-40">
-          <iframe className="w-32 top-[5.5rem] lg:left-[28rem] relative" src="https://lottie.host/embed/5a15d394-2bcb-493e-b70a-c2fbab655b55/6ThKMwg0XV.json"></iframe>
-            <h1 className="text-2xl font-semibold text-center mb-20">Projects</h1>
+        <div className="lg:mt-40 mt-10">
+          <iframe className="w-32 top-[5.5rem] lg:left-[28rem] left-10 relative" src="https://lottie.host/embed/5a15d394-2bcb-493e-b70a-c2fbab655b55/6ThKMwg0XV.json"></iframe>
+            <h1 className="text-2xl font-semibold text-center mb-20 lg:ml-0 ml-12">Projects</h1>
             
 
            
@@ -20,7 +20,7 @@ const Projects = () => {
         effect={'cards'}
         grabCursor={true}
         modules={[EffectCards]}
-        className="mySwiper lg:w-[27.5em] w-[25em]"
+        className="mySwiper lg:w-[27.5em] w-[22em]"
       >
 
 
