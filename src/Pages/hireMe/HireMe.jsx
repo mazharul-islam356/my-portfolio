@@ -34,7 +34,7 @@ const HireMe = () => {
     AOS.init();
   }, [])
     return (
-        <div className="h-screen">
+        <div>
              <h1 className="text-2xl font-semibold text-center mt-20 mb-10">Hire me</h1>
              
              <div className="grid gap-6 lg:gap-0 lg:grid-cols-3 justify-items-center">

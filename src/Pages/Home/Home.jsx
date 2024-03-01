@@ -6,24 +6,24 @@ const Home = () => {
     return (
         <div>
             
-            <div className="grid lg:grid-cols-2 w-10/12 mx-auto h-screen items-center justify-evenly justify-items-center font-sans">
+            <div className="flex flex-row w-10/12 mx-auto h-screen items-center justify-evenly justify-items-center font-sans">
             
-                <div className='flex gap-56 mt-12'>
+                <div className='flex lg:flex-row flex-col-reverse lg:gap-56 lg:mt-12 mt-4'>
 
                   {/* icon */}
-                  <div className='mt-16 relative left-[5.5rem]'>
+                  <div className='mt-16 relative lg:left-[5.5rem] grid lg:grid-cols-1 grid-cols-3 justify-center'>
                     <div><iframe className='w-16' src="https://lottie.host/embed/2d74bdbc-a611-42d8-9125-e5bfb131b392/PtDZYazcaC.json"></iframe></div>
 
 
-                    <div><iframe className='w-14 relative bottom-16 left-1' src="https://lottie.host/embed/c7ebf29d-3f3b-4624-a58e-5df52e77cd4f/R5aaSnZpjC.json"></iframe></div>
+                    <div><iframe className='w-14 relative lg:bottom-16 left-1' src="https://lottie.host/embed/c7ebf29d-3f3b-4624-a58e-5df52e77cd4f/R5aaSnZpjC.json"></iframe></div>
 
-                    <div><iframe className='w-10 relative bottom-32 left-2.5' src="https://lottie.host/embed/adb77681-b995-4209-ade7-c983c0cbfec5/S6QCkO4TMO.json"></iframe></div>
+                    <div><iframe className='w-10 relative lg:bottom-32 left-2.5' src="https://lottie.host/embed/adb77681-b995-4209-ade7-c983c0cbfec5/S6QCkO4TMO.json"></iframe></div>
 
                   </div>
 
 
 
-                <div className='mt-12'>  
+                <div className='lg:mt-12'>  
                  
                  <h2 className="text-5xl mb-0.5 mt-12">I am <span className="font-semibold">Mazharul Islam</span></h2>
                      {/* <h3 className="text-2xl w-full mx-auto">_____________Frontend developer</h3> */}
