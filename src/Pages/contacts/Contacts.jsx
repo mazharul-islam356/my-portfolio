@@ -5,7 +5,7 @@ const Contacts = () => {
       <div>
         <h2 className="font-semibold text-center mt-4">Join with me</h2>
 
-        <div className="grid grid-cols-2 gap-4 justify-center items-center justify-items-center">
+        <div className="grid lg:grid-cols-2 gap-4 justify-center items-center justify-items-center">
           {/* 1st side */}
           <div>
             <div className="flex gap-4">
@@ -63,7 +63,7 @@ const Contacts = () => {
           <div>
             <div className="ml-40">
               <iframe
-                className="w-[26rem] h-[26rem]"
+                className="lg:w-[26rem] lg:h-[26rem]"
                 src="https://lottie.host/embed/26d15aff-3756-4333-a44f-ee00eb9002b8/VBPuH5Qfjv.json"
               ></iframe>
             </div>

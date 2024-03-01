@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <div>
             
-            <div className="flex flex-row w-10/12 mx-auto h-screen items-center justify-evenly justify-items-center font-sans">
+            <div className="lg:grid lg:grid-cols-2   w-10/12 mx-auto flex flex-col-reverse items-center justify-evenly justify-items-center font-sans">
             
                 <div className='flex lg:flex-row flex-col-reverse lg:gap-56 lg:mt-12 mt-4'>
 
@@ -55,7 +55,7 @@ const Home = () => {
 
                 
 <section className="main-container">
-    <div className="main ml-24 mb-2">
+    <div className="main lg:ml-24 mb-2">
       <div className="big-circle">
       <div className="icon-block">
         <img src="https://i.ibb.co/JjzqBQ0/html-5-1.png" alt="web design icon" />

@@ -20,7 +20,7 @@ const Skills = () => {
             <iframe className="w-32 top-[5.5rem] lg:left-[30rem] relative" src="https://lottie.host/embed/41bb23a7-2a50-4954-b84a-da78d857cfb0/1vfKwk3vNP.json"></iframe>
 <h1 className="text-3xl font-semibold text-center">Skills</h1>
 
-   <div className='grid lg:grid-cols-2 justify-center items-center gap-20 lg:ml-72 mt-10'>
+   <div className='grid lg:grid-cols-2  justify-center items-center gap-20 lg:ml-72 mt-10'>
 
          {/* coding skills */}
          <div>
@@ -197,7 +197,7 @@ const Skills = () => {
                 <div id="scroll-progress">
                 </div>
     
-               <div className='grid grid-cols-2 gap-x-36 gap-y-4 justify-between items-center justify-items-center'>
+               <div className='grid grid-cols-2 gap-x-36 gap-y-4 justify-between'>
     
              {/* progress bar photoshop */}
              <div className="skills mr-4">
