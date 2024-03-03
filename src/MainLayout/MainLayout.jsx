@@ -1,3 +1,4 @@
+import Footer from "../Footer/Footer";
 import Education from "../Pages/Education/Education";
 import Home from "../Pages/Home/Home";
 import Navbars from "../Pages/Navbar/Navbars";
@@ -13,7 +14,7 @@ const MainLayout = () => {
     
 
     return (
-        <div className="pb-6">
+        <div className="">
             
             <Navbars></Navbars> 
              
@@ -29,8 +30,8 @@ const MainLayout = () => {
            <HireMe></HireMe>
            <Contacts></Contacts>
 
-
          </div>
+         <Footer></Footer>
 
         </div>
     );

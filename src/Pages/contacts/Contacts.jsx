@@ -8,7 +8,7 @@ const Contacts = () => {
         <div className="grid lg:grid-cols-2 gap-4 justify-center items-center justify-items-center">
           {/* 1st side */}
           <div>
-            <div className="flex gap-4">
+            <div className="flex gap-4 lg:mt-4">
               <div className="w-28 lg:w-full">
                 <div className="relative w-full min-w-[100px] h-10">
                   <input
@@ -56,6 +56,7 @@ const Contacts = () => {
                   Message
                 </label>
               </div>
+              <button className="btn btn-info btn-outline w-full btn-sm">Send</button>
             </div>
           </div>
 
