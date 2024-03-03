@@ -3,13 +3,13 @@ const Contacts = () => {
     <div className="mt-20">
       <h1 className="text-2xl font-semibold text-center">Contacts</h1>
       <div>
-        <h2 className="font-semibold text-center mt-4">Join with me</h2>
+        <h2 className="font-semibold text-center lg:mt-4 lg:mb-0 mb-6">Join with me</h2>
 
         <div className="grid lg:grid-cols-2 gap-4 justify-center items-center justify-items-center">
           {/* 1st side */}
           <div>
             <div className="flex gap-4">
-              <div className="w-6">
+              <div className="w-28 lg:w-full">
                 <div className="relative w-full min-w-[100px] h-10">
                   <input
                     className="peer w-full h-full bg-transparent text-blue-gray-700 font-sans font-normal outline outline-0 focus:outline-0 disabled:bg-blue-gray-50 disabled:border-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 border focus:border-2 border-t-transparent focus:border-t-transparent text-sm px-3 py-2.5 rounded-[7px] border-blue-gray-200 focus:border-gray-900"
@@ -63,7 +63,7 @@ const Contacts = () => {
           <div>
             <div className="ml-40">
               <iframe
-                className="lg:w-[26rem] lg:h-[26rem]"
+                className="lg:w-[26rem] relative right-20 lg:right-0 lg:h-[26rem]"
                 src="https://lottie.host/embed/26d15aff-3756-4333-a44f-ee00eb9002b8/VBPuH5Qfjv.json"
               ></iframe>
             </div>

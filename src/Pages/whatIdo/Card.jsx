@@ -19,7 +19,7 @@ const Card = () => {
      {/* --------------card 01------------- */}
         <div data-aos-duration="800" data-aos="fade-right" className="cards rounded-2xl shadow-xl">
   
-    <div  href="" className="card">
+    <div className="card">
       <img src="https://i.ibb.co/dktMVJZ/web-development-company-1-2022.jpg" className="card__image" alt="" />
       <div className="card__overlay">
         <div className="card__header">
@@ -40,7 +40,7 @@ const Card = () => {
     {/* --------------card 02------------- */}
         <div data-aos-duration="800" data-aos="fade-left" className="cards rounded-2xl shadow-xl">
   
-    <a href="" className="card">
+    <div className="card">
       <img src="https://i.ibb.co/LdbW4BQ/photo-1626785774573-4b799315345d.jpg" className="card__image" alt="" />
       <div className="card__overlay">
         <div className="card__header">
@@ -53,7 +53,7 @@ const Card = () => {
         </div> 
         <p className="card__description">I am a thumbnIL DESIGNER</p>
       </div>
-    </a>      
+    </div>      
   
      
     </div>
@@ -61,7 +61,7 @@ const Card = () => {
     {/* --------------card 03------------- */}
           <div data-aos-duration="800" data-aos="fade-right" className="cards rounded-2xl shadow-xl">
  
-    <a href="" className="card">
+    <div className="card">
       <img src="https://i.ibb.co/44RDsJQ/media-1578d1579cf71bff5f9b7a064d.jpg" className="card__image" alt="" />
       <div className="card__overlay">
         <div className="card__header">
@@ -74,7 +74,7 @@ const Card = () => {
         </div>
         <p className="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
       </div>
-    </a>      
+    </div>      
  
      
     </div>
@@ -83,7 +83,7 @@ const Card = () => {
     {/* --------------card 04------------- */}
           <div data-aos-duration="800" data-aos="fade-left" className="cards rounded-2xl shadow-xl">
   
-    <a href="" className="card">
+    <div className="card">
       <img src="https://i.ibb.co/QM9qfqM/DM-blog-post-image-03.jpg" className="card__image" alt="" />
       <div className="card__overlay">
         <div className="card__header">
@@ -96,7 +96,7 @@ const Card = () => {
         </div>
         <p className="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
       </div>
-    </a>      
+    </div>      
      
     </div>
  

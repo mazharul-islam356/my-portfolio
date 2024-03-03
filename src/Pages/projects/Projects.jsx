@@ -20,7 +20,7 @@ const Projects = () => {
         effect={'cards'}
         grabCursor={true}
         modules={[EffectCards]}
-        className="mySwiper lg:w-[27.5em] w-[17em]"
+        className="mySwiper lg:w-[27.5em] w-[16em]"
       >
 
 
