@@ -4,7 +4,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaAddressBook } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-
+import { IoMdSend } from "react-icons/io";
 
 const Contacts = () => {
   return (
@@ -18,7 +18,7 @@ const Contacts = () => {
           <div>
         <h1 className="font-semibold text-xl ml-3 mb-4">Contacts with me</h1>
 
-        <div className="grid grid-cols-2 gap-x-2 gap-y-4 mt-2 text-sm mr-8">
+        <div className="grid lg:grid-cols-2 gap-x-2 gap-y-4 mt-2 text-sm mr-8 justify-items-start">
           <div className="flex gap-1 justify-center items-center">
           <FaPhoneAlt className="" />
             Phone: <span>+8801866186426(What'sapp)</span>
@@ -41,20 +41,22 @@ const Contacts = () => {
             </div>
         </div>
         <div>
-        <iframe className="w-[40rem] h-[25rem] mt-6 rounded-xl" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d543.0108002183805!2d90.49199253858728!3d23.714312110328734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b7a02d0447ab%3A0xa8bf5aa33e56204a!2zU3RhZmYgUXVhcnRlciAo4Ka44KeN4Kaf4Ka-4KarIOCmleCni-Cnn-CmvuCmsOCnjeCmn-CmvuCmsCk!5e0!3m2!1sen!2sbd!4v1709567045858!5m2!1sen!2sbd" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe className="lg:w-[40rem] w-[20rem] shadow-md lg:h-[25rem] h-80 mt-6 rounded-xl" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d543.0108002183805!2d90.49199253858728!3d23.714312110328734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b7a02d0447ab%3A0xa8bf5aa33e56204a!2zU3RhZmYgUXVhcnRlciAo4Ka44KeN4Kaf4Ka-4KarIOCmleCni-Cnn-CmvuCmsOCnjeCmn-CmvuCmsCk!5e0!3m2!1sen!2sbd!4v1709567045858!5m2!1sen!2sbd" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
           </div>
 
-          {/* 2nd side */}
+          
           <div>
-            {/* <div className="ml-40">
-              <iframe
-                className="lg:w-[26rem] relative right-20 lg:right-0 lg:h-[26rem]"
-                src="https://lottie.host/embed/26d15aff-3756-4333-a44f-ee00eb9002b8/VBPuH5Qfjv.json"
-              ></iframe>
-            </div> */}
+           
 
 <div>
+
+   <div className="ml-40 lg:w-full w-40">
+              <iframe
+                className="lg:w-[12rem] relative right-32 lg:mt-0 lg:my-0 mt-10 my-4 lg:right-4 ri lg:h-[15rem]"
+                src="https://lottie.host/embed/26d15aff-3756-4333-a44f-ee00eb9002b8/VBPuH5Qfjv.json"
+              ></iframe>
+            </div>
             <div className="flex gap-4 lg:mt-4">
               <div className="w-28 lg:w-full">
                 <div className="relative w-full min-w-[100px] h-10">
@@ -103,7 +105,7 @@ const Contacts = () => {
                   Message
                 </label>
               </div>
-              <button className="btn btn-info btn-outline w-full btn-sm">Send</button>
+              <button className="btn btn-info btn-outline w-full btn-sm">Send <IoMdSend /></button>
             </div>
           </div>
           </div>
