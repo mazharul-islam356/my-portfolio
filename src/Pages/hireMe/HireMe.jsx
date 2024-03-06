@@ -177,7 +177,7 @@ const HireMe = () => {
           ripple={false}
           fullWidth={true}
         >
-          Buy Now
+          Choose Plan
         </Button>
       </CardFooter>
          </Card>

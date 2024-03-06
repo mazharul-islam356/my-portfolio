@@ -1,4 +1,5 @@
 import Footer from "../Footer/Footer";
+import Blogs from "../Pages/Blogs/Blogs";
 import Education from "../Pages/Education/Education";
 import Home from "../Pages/Home/Home";
 import Navbars from "../Pages/Navbar/Navbars";
@@ -28,6 +29,7 @@ const MainLayout = () => {
            <Projects></Projects>
            <FunFacts></FunFacts>
            <HireMe></HireMe>
+           <Blogs></Blogs>
            <Contacts></Contacts>
 
          </div>
