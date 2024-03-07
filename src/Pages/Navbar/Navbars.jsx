@@ -37,7 +37,7 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="#" className="flex items-center hover:text-[#23b6e2] transition-colors">
+        <a href="project" className="flex items-center hover:text-[#23b6e2] transition-colors">
           Projects
         </a>
       </Typography>
