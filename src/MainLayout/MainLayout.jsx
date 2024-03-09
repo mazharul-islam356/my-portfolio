@@ -3,6 +3,7 @@ import Blogs from "../Pages/Blogs/Blogs";
 import Education from "../Pages/Education/Education";
 import Home from "../Pages/Home/Home";
 import Navbars from "../Pages/Navbar/Navbars";
+import Photography from "../Pages/Photography/Photography";
 import Contacts from "../Pages/contacts/Contacts";
 import FunFacts from "../Pages/funFacts/FunFacts";
 import HireMe from "../Pages/hireMe/HireMe";
@@ -28,6 +29,7 @@ const MainLayout = () => {
            <Skills></Skills>
            <Projects></Projects>
            <FunFacts></FunFacts>
+           <Photography></Photography>
            <HireMe></HireMe>
            <Blogs></Blogs>
            <Contacts></Contacts>

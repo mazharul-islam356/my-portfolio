@@ -46,6 +46,7 @@ const Home = () => {
       repeat={Infinity}
     />
                      <p className="max-w-[35rem] lg:w-[35rem] text-xl mt-4 mb-6 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, neque!Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, ducimus.</p>
+                     
                      <button className="btn btn-outline  btn-ghost">Download CV</button>
                      <button className="btn btn-outline  btn-ghost ml-6">Contact Now</button>
  

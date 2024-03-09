@@ -54,10 +54,11 @@ const Education = () => {
 
     <div className="grow pt-0.5 pb-8">
     <h3 className="font-semibold text-xl">Govt. Tolaram Collage and University</h3>
+   
                 <p>2023-Present(Honors 1st year)</p>
     </div>
 
-
+   
    
   </div>
 
