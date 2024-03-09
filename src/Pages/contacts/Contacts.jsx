@@ -51,7 +51,7 @@ const Contacts = () => {
 
 <div>
 
-   <div className="ml-40 lg:w-full w-40">
+   <div className="ml-[8.9rem] lg:w-full w-40">
               <iframe
                 className="lg:w-[12rem] relative right-32 lg:mt-0 lg:my-0 mt-10 my-4 lg:right-4 ri lg:h-[15rem]"
                 src="https://lottie.host/embed/26d15aff-3756-4333-a44f-ee00eb9002b8/VBPuH5Qfjv.json"
