@@ -2,7 +2,7 @@ import './card.css'
 import AOS from "aos";
 import { useEffect } from "react";
 import 'aos/dist/aos.css';
-
+import { FaArrowRightLong } from "react-icons/fa6";
 
 const Card = () => {
 
@@ -27,10 +27,13 @@ const Card = () => {
           
           <div className="card__header-text">
             <h3 className="card__title font-semibold">Web Development</h3>            
-            <span className="card__status">1 hour ago</span>
+            <span className="card__status flex items-center gap-1">Hover on it <div>
+            <FaArrowRightLong />
+              </div> 
+            </span>
           </div>
         </div>
-        <p className="card__description">I am a proffesional fontend web developer</p>
+        <p className="card__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, vero.</p>
       </div>
     </div>      
   
@@ -48,10 +51,13 @@ const Card = () => {
           
           <div className="card__header-text">
             <h3 className="card__title font-semibold">Graphic Design</h3>            
-            <span className="card__status">1 hour ago</span>
+            <span className="card__status flex items-center gap-1">Hover on it <div>
+            <FaArrowRightLong />
+              </div> 
+            </span>
           </div>
         </div> 
-        <p className="card__description">I am a thumbnIL DESIGNER</p>
+        <p className="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, veritatis.</p>
       </div>
     </div>      
   
@@ -69,7 +75,10 @@ const Card = () => {
           
           <div className="card__header-text">
             <h3 className="card__title font-semibold">Photography</h3>            
-            <span className="card__status">1 hour ago</span>
+            <span className="card__status flex items-center gap-1">Hover on it <div>
+            <FaArrowRightLong />
+              </div> 
+            </span>
           </div>
         </div>
         <p className="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
@@ -91,7 +100,10 @@ const Card = () => {
           
           <div className="card__header-text">
             <h3 className="card__title font-semibold">Digital Marketing</h3>            
-            <span className="card__status">1 hour ago</span>
+            <span className="card__status flex items-center gap-1">Hover on it <div>
+            <FaArrowRightLong />
+              </div> 
+            </span>
           </div>
         </div>
         <p className="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>

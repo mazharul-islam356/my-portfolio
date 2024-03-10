@@ -10,8 +10,8 @@ const Education = () => {
      <div className="text-2xl mb-4">
      
      </div>
-     <iframe className="w-40" src="https://lottie.host/embed/de037b31-9e29-426f-87b6-6ff02ca9c77c/uhIlqDczwM.json"></iframe>
-            <h1 className="text-3xl mt-4 mr-2 font-semibold relative right-4">Education</h1>
+     <iframe className="w-40 relative lg:right-4" src="https://lottie.host/embed/de037b31-9e29-426f-87b6-6ff02ca9c77c/uhIlqDczwM.json"></iframe>
+            <h1 className="text-3xl mt-4 mr-2  font-semibold relative right-10">Education</h1>
             
      </div>
      
