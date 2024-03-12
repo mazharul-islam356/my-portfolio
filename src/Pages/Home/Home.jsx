@@ -45,7 +45,7 @@ const Home = () => {
       style={{ fontSize: '1.5em', display: 'inline-block' }}
       repeat={Infinity}
     />
-                     <p className="max-w-[35rem] lg:w-[35rem] text-xl mt-4 mb-6 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, neque!Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, ducimus.</p>
+                     <p className="max-w-[35rem] lg:w-[35rem] text-xl mt-4 mb-6 mx-auto">I am a proficient MERN Stack developer skilled in HTML, CSS, Tailwind CSS, JavaScript, React, NodeJs and MongoDB dedicated to creating visually appealing and user-friendly web interfaces.</p>
                      
                      <button className="btn btn-outline  btn-ghost">Download CV</button>
                      <button className="btn btn-outline  btn-ghost ml-6">Contact Now</button>
