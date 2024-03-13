@@ -3,6 +3,10 @@ import { EffectCards } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/effect-cards';
 import './project.css'
+import { FaExternalLinkAlt } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaServer } from "react-icons/fa";
+
 
 
 const Projects = () => {
@@ -31,12 +35,38 @@ const Projects = () => {
         <SwiperSlide className="shadow-none">
           <div className='body '>
             <div className='containers'>
-            <div className='cards'>
+            <div className='cards    '>
             <div className='imgBx'>
             <img src="https://i.ibb.co/NxL2rNL/1709994928514.jpg" alt="" />
             </div>
-            <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, delectus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, doloremque?
+            <p className='text-white mt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, delectus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, doloremque?
             </p>
+
+            <div className="grid grid-cols-3 gap-4 text-xl">
+
+            <div className="text-white">
+            
+            
+            <FaExternalLinkAlt />
+            
+
+            </div>
+            <div className="text-white">
+            
+            
+            <FaGithub />
+            
+
+            </div>
+            <div className="text-white">
+            
+            
+            <FaServer />
+            
+
+            </div>
+            </div>
+
             <h2 className='font-semibold text-xl'>Card 01</h2>
             </div>
             </div>
