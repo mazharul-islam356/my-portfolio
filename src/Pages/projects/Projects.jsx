@@ -19,7 +19,7 @@ const Projects = () => {
             <Swiper
         effect={'cards'}
         modules={[EffectCards]}
-        className="mySwiper mt-40 w-[30rem] h-[30rem]"
+        className="mySwiper mt-40 w-[32rem] h-[30rem]"
       >
 
 
@@ -31,7 +31,7 @@ const Projects = () => {
         <SwiperSlide className="shadow-none">
           <div className='body '>
             <div className='containers'>
-            <div className='cards shadow-2xl'>
+            <div className='cards'>
             <div className='imgBx'>
             <img src="https://i.ibb.co/NxL2rNL/1709994928514.jpg" alt="" />
             </div>
