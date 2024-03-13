@@ -20,7 +20,7 @@ const Skills = () => {
             <iframe className="w-32 lg:top-[5.5rem] top-[5.6rem] left-16 lg:left-[30rem] relative" src="https://lottie.host/embed/41bb23a7-2a50-4954-b84a-da78d857cfb0/1vfKwk3vNP.json"></iframe>
 <h1 className="text-3xl font-semibold text-center ml-16 lg:ml-0">Skills</h1>
 
-   <div className='grid lg:grid-cols-2  justify-center items-center gap-20 lg:ml-72 mt-10'>
+   <div className='grid lg:grid-cols-2  justify-center items-center gap-20 lg:ml-48 mt-10'>
 
          {/* coding skills */}
          <div>
