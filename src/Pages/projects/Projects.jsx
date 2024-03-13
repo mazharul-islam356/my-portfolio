@@ -20,7 +20,7 @@ const Projects = () => {
         effect={'cards'}
         grabCursor={true}
         modules={[EffectCards]}
-        className="mySwiper lg:w-[27.5em] w-[16em]"
+        className="mySwiper lg:w-[32em] w-[16em]"
       >
 
 
@@ -45,11 +45,11 @@ const Projects = () => {
 </div> */}
 <div className='body '>
             <div className='containers'>
-            <div className='cards shadow-2xl'>
+            <div className='cards border-4 border-gray-400'>
             <div className='imgBx'>
             <img src="https://i.ibb.co/NxL2rNL/1709994928514.jpg" alt="" />
             </div>
-            <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, delectus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, doloremque?
+            <p className='text-black'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, delectus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, doloremque?
             </p>
             <h2 className='font-semibold text-xl'>Card 01</h2>
             </div>
