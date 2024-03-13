@@ -18,9 +18,8 @@ const Projects = () => {
 
             <Swiper
         effect={'cards'}
-        grabCursor={true}
         modules={[EffectCards]}
-        className="mySwiper lg:w-[32em] w-[16em]"
+        className="mySwiper mt-40 w-[30rem] h-[30rem]"
       >
 
 
@@ -29,21 +28,26 @@ const Projects = () => {
 
 
         {/* slide 01 */}
-        <SwiperSlide>
+        <SwiperSlide className="shadow-none">
+          <div className='body '>
+            <div className='containers'>
+            <div className='cards shadow-2xl'>
+            <div className='imgBx'>
+            <img src="https://i.ibb.co/NxL2rNL/1709994928514.jpg" alt="" />
+            </div>
+            <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, delectus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, doloremque?
+            </p>
+            <h2 className='font-semibold text-xl'>Card 01</h2>
+            </div>
+            </div>
+            
+            </div>   
+        </SwiperSlide>
 
-{/* <div className="da relative flex  flex-col justify-center overflow-hidden bg-gray-50">
-  <div className="absolute inset-0 bg-center dark:bg-black"></div>
-  <div className="group relative m-0 flex h-full w-[40rem] rounded-xl shadow-xl ring-gray-900/5 sm:mx-auto sm:max-w-lg">
-    <div className="z-10 h-full w-full overflow-hidden rounded-xl border border-gray-200 opacity-80 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70">
-      <img src="https://i.ibb.co/H2FRS62/copy-writer.jpg" className="animate-fade-in block lg:h-[20rem] lg:w-full h-[17rem] w-[19em] -ml-14 scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110" alt="" />
-    </div>
-    <div className="absolute bottom-0 z-20 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110">
-      <h1 className="font-serif text-3xl font-bold text-white shadow-xl">CareerFinder</h1>
-      <h1 className="text-xl text-white font-medium shadow-xl">A job seeking website</h1>
-    </div>
-  </div>
-</div> */}
-<div className='body '>
+{/* slide 02 */}
+      {/* <SwiperSlide>
+
+<div className='body'>
             <div className='containers'>
             <div className='cards border-4 border-gray-400'>
             <div className='imgBx'>
@@ -57,24 +61,22 @@ const Projects = () => {
             
             </div>
             
-        </SwiperSlide>
-
-{/* slide 02 */}
-        {/* <SwiperSlide>
-           <div className="da relative flex  flex-col justify-center overflow-hidden bg-gray-50">
-  <div className="absolute inset-0 bg-center dark:bg-black"></div>
-  <div className="group relative m-0 flex h-full w-[40rem] rounded-xl shadow-xl ring-gray-900/5 sm:mx-auto sm:max-w-lg">
-    <div className="z-10 h-full w-full overflow-hidden rounded-xl border border-gray-200 opacity-80 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70">
-      <img src="https://i.ibb.co/YXX9JSc/high-paying-remote-jobs.jpg" className="animate-fade-in block lg:h-[20rem] lg:w-full h-[17rem] w-[19em] -ml-14 scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110" alt="" />
-    </div>
-    <div className="absolute bottom-0 z-20 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110">
-      <h1 className="font-serif text-2xl font-bold text-white shadow-xl">Eat and Exelcs</h1>
-      <h1 className="text-sm font-light text-gray-200 shadow-xl">A hostel management website</h1>
-    </div>
-  </div>
-            </div>
-           
         </SwiperSlide> */}
+         <SwiperSlide className="">
+          <div className='body'>
+            <div className='containers'>
+            <div className='cards shadow-2xl'>
+            <div className='imgBx'>
+            <img src="https://i.ibb.co/NxL2rNL/1709994928514.jpg" alt="" />
+            </div>
+            <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, delectus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, doloremque?
+            </p>
+            <h2 className='font-semibold text-xl'>Card 01</h2>
+            </div>
+            </div>
+            
+            </div>   
+        </SwiperSlide>
 
 {/* slide 03 */}
 
