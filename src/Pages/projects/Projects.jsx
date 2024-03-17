@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import {Swiper,SwiperSlide} from "swiper/react";
 import { EffectCards } from 'swiper/modules';
 import 'swiper/css';
@@ -39,9 +40,61 @@ const Projects = () => {
             <div className='imgBx'>
             <img src="https://i.ibb.co/NxL2rNL/1709994928514.jpg" alt="" />
             </div>
-            <p className='text-white mt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, delectus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, doloremque?
+            <p className='text-black mt-4'>Eat & excels is a hostel meal management website. With Its clean and minimal user interface, it helps the user to find their needs easily. It also features an admin panale.
             </p>
 
+            <div className="grid grid-cols-3 gap-4 text-xl relative bottom-3">
+
+            <div className="text-black">
+            
+         <a target="_blank" href="https://assingment-12-d89cd.web.app/">
+          
+            <FaExternalLinkAlt />
+         </a>
+          
+
+            </div>
+            <div className="text-black">
+            
+            <a target="_blank" href="https://github.com/mazharul-islam356/eat-and-excels-clint">
+
+
+            <FaGithub />
+            </a>
+            
+
+            </div>
+            <div className="text-black">
+            
+            <a target="_blank" href="https://github.com/mazharul-islam356/eat-and-excels-server">
+
+            <FaServer />
+
+            </a>
+            
+
+            </div>
+            </div>
+
+            <h2 className='font-semibold text-black text-xl'>Eat & Excells</h2>
+            </div>
+            </div>
+            
+            </div>   
+        </SwiperSlide>
+
+{/* slide 02 */}
+    
+
+         <SwiperSlide className="">
+          <div className='body'>
+            <div className='containers'>
+            <div className='cards bg-[#57c4ac]'>
+            <div className='imgBx'>
+            <img src="https://i.ibb.co/NxL2rNL/1709994928514.jpg" alt="" />
+            </div>
+            <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, delectus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, doloremque?
+            </p>
             <div className="grid grid-cols-3 gap-4 text-xl">
 
             <div className="text-white">
@@ -74,26 +127,6 @@ const Projects = () => {
 
             </div>
             </div>
-
-            <h2 className='font-semibold text-xl'>Card 01</h2>
-            </div>
-            </div>
-            
-            </div>   
-        </SwiperSlide>
-
-{/* slide 02 */}
-    
-
-         <SwiperSlide className="">
-          <div className='body'>
-            <div className='containers'>
-            <div className='cards bg-[#57c4ac]'>
-            <div className='imgBx'>
-            <img src="https://i.ibb.co/NxL2rNL/1709994928514.jpg" alt="" />
-            </div>
-            <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, delectus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, doloremque?
-            </p>
             <h2 className='font-semibold text-xl'>Card 01</h2>
             </div>
             </div>
@@ -112,6 +145,38 @@ const Projects = () => {
             </div>
             <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, delectus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, doloremque?
             </p>
+            <div className="grid grid-cols-3 gap-4 text-xl">
+
+            <div className="text-white">
+            
+         <a href="http://">
+          
+            <FaExternalLinkAlt />
+         </a>
+          
+
+            </div>
+            <div className="text-white">
+            
+            <a href="http://">
+
+
+            <FaGithub />
+            </a>
+            
+
+            </div>
+            <div className="text-white">
+            
+            <a href="http://">
+
+            <FaServer />
+
+            </a>
+            
+
+            </div>
+            </div>
             <h2 className='font-semibold text-xl'>Card 01</h2>
             </div>
             </div>
@@ -130,6 +195,38 @@ const Projects = () => {
             </div>
             <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, delectus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, doloremque?
             </p>
+            <div className="grid grid-cols-3 gap-4 text-xl">
+
+            <div className="text-white">
+            
+         <a href="http://">
+          
+            <FaExternalLinkAlt />
+         </a>
+          
+
+            </div>
+            <div className="text-white">
+            
+            <a href="http://">
+
+
+            <FaGithub />
+            </a>
+            
+
+            </div>
+            <div className="text-white">
+            
+            <a href="http://">
+
+            <FaServer />
+
+            </a>
+            
+
+            </div>
+            </div>
             <h2 className='font-semibold text-xl'>Card 01</h2>
             </div>
             </div>
@@ -148,6 +245,38 @@ const Projects = () => {
             </div>
             <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, delectus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, doloremque?
             </p>
+            <div className="grid grid-cols-3 gap-4 text-xl">
+
+            <div className="text-white">
+            
+         <a href="http://">
+          
+            <FaExternalLinkAlt />
+         </a>
+          
+
+            </div>
+            <div className="text-white">
+            
+            <a href="http://">
+
+
+            <FaGithub />
+            </a>
+            
+
+            </div>
+            <div className="text-white">
+            
+            <a href="http://">
+
+            <FaServer />
+
+            </a>
+            
+
+            </div>
+            </div>
             <h2 className='font-semibold text-xl'>Card 01</h2>
             </div>
             </div>
@@ -167,6 +296,38 @@ const Projects = () => {
             </div>
             <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, delectus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, doloremque?
             </p>
+            <div className="grid grid-cols-3 gap-4 text-xl">
+
+            <div className="text-white">
+            
+         <a href="http://">
+          
+            <FaExternalLinkAlt />
+         </a>
+          
+
+            </div>
+            <div className="text-white">
+            
+            <a href="http://">
+
+
+            <FaGithub />
+            </a>
+            
+
+            </div>
+            <div className="text-white">
+            
+            <a href="http://">
+
+            <FaServer />
+
+            </a>
+            
+
+            </div>
+            </div>
             <h2 className='font-semibold text-xl'>Card 01</h2>
             </div>
             </div>
@@ -185,6 +346,38 @@ const Projects = () => {
             </div>
             <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, delectus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, doloremque?
             </p>
+            <div className="grid grid-cols-3 gap-4 text-xl">
+
+            <div className="text-white">
+            
+         <a href="http://">
+          
+            <FaExternalLinkAlt />
+         </a>
+          
+
+            </div>
+            <div className="text-white">
+            
+            <a href="http://">
+
+
+            <FaGithub />
+            </a>
+            
+
+            </div>
+            <div className="text-white">
+            
+            <a href="http://">
+
+            <FaServer />
+
+            </a>
+            
+
+            </div>
+            </div>
             <h2 className='font-semibold text-xl'>Card 01</h2>
             </div>
             </div>
@@ -203,6 +396,38 @@ const Projects = () => {
             </div>
             <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, delectus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, doloremque?
             </p>
+            <div className="grid grid-cols-3 gap-4 text-xl">
+
+            <div className="text-white">
+            
+         <a href="http://">
+          
+            <FaExternalLinkAlt />
+         </a>
+          
+
+            </div>
+            <div className="text-white">
+            
+            <a href="http://">
+
+
+            <FaGithub />
+            </a>
+            
+
+            </div>
+            <div className="text-white">
+            
+            <a href="http://">
+
+            <FaServer />
+
+            </a>
+            
+
+            </div>
+            </div>
             <h2 className='font-semibold text-xl'>Card 01</h2>
             </div>
             </div>
@@ -215,12 +440,44 @@ const Projects = () => {
 <SwiperSlide className="">
           <div className='body'>
             <div className='containers'>
-            <div className='cards bg-[#B67352]'>
+            <div className='cards bg-[#9f9d8a]'>
             <div className='imgBx'>
             <img src="https://i.ibb.co/NxL2rNL/1709994928514.jpg" alt="" />
             </div>
             <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, delectus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, doloremque?
             </p>
+            <div className="grid grid-cols-3 gap-4 text-xl">
+
+            <div className="text-white">
+            
+         <a href="http://">
+          
+            <FaExternalLinkAlt />
+         </a>
+          
+
+            </div>
+            <div className="text-white">
+            
+            <a href="http://">
+
+
+            <FaGithub />
+            </a>
+            
+
+            </div>
+            <div className="text-white">
+            
+            <a href="http://">
+
+            <FaServer />
+
+            </a>
+            
+
+            </div>
+            </div>
             <h2 className='font-semibold text-xl'>Card 01</h2>
             </div>
             </div>

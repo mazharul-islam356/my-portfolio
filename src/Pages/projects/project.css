@@ -118,7 +118,6 @@ border-radius: 15px;
 .containers .cards h2{
   position: absolute;
   bottom: 10px;
-  color: white;
   font-weight: 600;
 } 
 
@@ -133,9 +132,31 @@ border-radius: 15px;
   .swiper {
     height: 270px;
   }
+
+  .containers .cards{
+    width: 20rem;
+    height: 15rem;
+    position: relative;
+  }
+  .containers .cards:hover{
+    width: 17rem;
+    height: 22rem;
+    position: relative;
+  }
+
+
+  .containers .cards h2{
+    
+
+  }
+
 }
 @media screen and (max-width: 576px){
   .swiper {
     height: 260px;
   }
+
+
+
+
 }
