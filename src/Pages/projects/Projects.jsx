@@ -91,24 +91,24 @@ const Projects = () => {
             <div className='containers'>
             <div className='cards bg-[#57c4ac]'>
             <div className='imgBx'>
-            <img src="https://i.ibb.co/NxL2rNL/1709994928514.jpg" alt="" />
+            <img src="https://ibb.co/b3WY0T3" alt="" />
             </div>
-            <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, delectus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, doloremque?
+            <p className='text-black'>Career Finder is a job seeker website.you can apply a job and manage your applied job on this site
             </p>
-            <div className="grid grid-cols-3 gap-4 text-xl">
+            <div className="grid grid-cols-3 gap-4 text-xl relative top-4">
 
-            <div className="text-white">
+            <div className="text-black">
             
-         <a href="http://">
+         <a href="https://assingmnet-11.web.app">
           
             <FaExternalLinkAlt />
          </a>
           
 
             </div>
-            <div className="text-white">
+            <div className="text-black">
             
-            <a href="http://">
+            <a href="https://github.com/mazharul-islam356/careerFinder-clint">
 
 
             <FaGithub />
@@ -116,9 +116,9 @@ const Projects = () => {
             
 
             </div>
-            <div className="text-white">
+            <div className="text-black">
             
-            <a href="http://">
+            <a href="https://github.com/mazharul-islam356/careerFinder-server">
 
             <FaServer />
 
@@ -127,7 +127,7 @@ const Projects = () => {
 
             </div>
             </div>
-            <h2 className='font-semibold text-xl'>Card 01</h2>
+            <h2 className='font-semibold text-xl'>CareerFinder</h2>
             </div>
             </div>
             
