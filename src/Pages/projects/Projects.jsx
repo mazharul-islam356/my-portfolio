@@ -31,14 +31,13 @@ const Projects = () => {
 
 
 
-
         {/* slide 01 */}
-        <SwiperSlide className="shadow-none">
-          <div className='body '>
+        <SwiperSlide className="shadow-none" >
+          <div className='body'>
             <div className='containers'>
             <div className='cards  bg-[#BBE2EC]  '>
             <div className='imgBx'>
-            <img src="https://i.ibb.co/NxL2rNL/1709994928514.jpg" alt="" />
+            <img src="https://i.ibb.co/0rCWRxJ/9585811-37378.jpg" alt="" />
             </div>
             <p className='text-black mt-4'>Eat & excels is a hostel meal management website. With Its clean and minimal user interface, it helps the user to find their needs easily. It also features an admin panale.
             </p>
@@ -91,9 +90,9 @@ const Projects = () => {
             <div className='containers'>
             <div className='cards bg-[#57c4ac]'>
             <div className='imgBx'>
-            <img src="https://ibb.co/b3WY0T3" alt="" />
+            <img src="https://i.ibb.co/H2FRS62/copy-writer.jpg" alt="" />
             </div>
-            <p className='text-black'>Career Finder is a job seeker website.you can apply a job and manage your applied job on this site
+            <p className='text-black'>Career Finder is a job seeker website. You can apply a job and manage your applied job on this site
             </p>
             <div className="grid grid-cols-3 gap-4 text-xl relative top-4">
 
