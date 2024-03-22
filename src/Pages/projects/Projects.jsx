@@ -94,7 +94,7 @@ const Projects = () => {
             </div>
             <p className='text-black'>Career Finder is a job seeker website. You can apply a job and manage your applied job on this site
             </p>
-            <div className="grid grid-cols-3 gap-4 text-xl relative top-4">
+            <div className="grid grid-cols-3 gap-4 text-xl relative top-2">
 
             <div className="text-black">
             
